@@ -2,10 +2,10 @@ import React from 'react';
 import '../nav.css'
 import { Link } from 'react-router-dom';
 
-const Nav = (props) => {
+const Nav = () => {
 
     const navStyle = {
-        color: 'white'
+        color: 'black'
     };
     return (
         <nav>
@@ -14,7 +14,7 @@ const Nav = (props) => {
                 <Link style={navStyle} to="/">
                     <li>Home</li>
                 </Link>
-                <Link style={navStyle} to="/elabora">
+                {/* <Link style={navStyle} to="/elabora">
                     <li>Elaborar</li>
                 </Link>
                 <Link style={navStyle} to="/simula">
@@ -22,7 +22,7 @@ const Nav = (props) => {
                 </Link>
                 <Link style={navStyle} to="/configurase">
                     <li>Configurar</li>
-                </Link>
+                </Link> */}
 
 
             </ul>

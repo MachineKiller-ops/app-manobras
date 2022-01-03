@@ -1,0 +1,860 @@
+[
+  {
+    "nome": "Atalaia",
+    "id": "bhat",
+    "mapa": {
+      "disjuntores": [
+        {
+          "pos": [
+            424,
+            163
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            753,
+            163
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            468,
+            275
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            846,
+            275
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            53,
+            399
+          ],
+          "estado": false,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            216,
+            399
+          ],
+          "estado": false,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            469,
+            395
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            846,
+            395
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            1012,
+            399
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            90,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            175,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            261,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            344,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            484,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            571,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            694,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            781,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            863,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            951,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "pos": [
+            1071,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false,
+          "sc": true
+        }
+      ]
+    }
+  },
+  {
+    "nome": "Betim2",
+    "id": "betd",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Betim3",
+    "id": "bett",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Betim4",
+    "id": "betq",
+    "mapa": {
+      "disjuntores": [
+        {
+          "nome": "2K4",
+          "pos": [
+            424,
+            163
+          ],
+          "estado": true,
+          "ra": true,
+          "rn": false
+        },
+        {
+          "nome": "3K4",
+          "pos": [
+            753,
+            163
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "9K4",
+          "pos": [
+            468,
+            275
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "10K4",
+          "pos": [
+            846,
+            275
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "403F4",
+          "pos": [
+            53,
+            399
+          ],
+          "estado": false,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "406F4",
+          "pos": [
+            216,
+            399
+          ],
+          "estado": false,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "409F4",
+          "pos": [
+            469,
+            395
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "414F4",
+          "pos": [
+            846,
+            395
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "418F4",
+          "pos": [
+            1012,
+            399
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "404F4",
+          "pos": [
+            90,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "405F4",
+          "pos": [
+            175,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "407F4",
+          "pos": [
+            261,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "408F4",
+          "pos": [
+            344,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "410F4",
+          "pos": [
+            484,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "412F4",
+          "pos": [
+            571,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "413F4",
+          "pos": [
+            694,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "415F4",
+          "pos": [
+            781,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "416F4",
+          "pos": [
+            863,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "417F4",
+          "pos": [
+            951,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        },
+        {
+          "nome": "419F4",
+          "pos": [
+            1071,
+            504
+          ],
+          "estado": true,
+          "ra": false,
+          "rn": false
+        }
+      ],
+      "seccionadoras": [
+        {
+          "nome": "2k5",
+          "pos": [
+            423,
+            135
+          ],
+          "estado": true
+        },
+        {
+          "nome": "2k3",
+          "pos": [
+            423,
+            190
+          ],
+          "estado": true
+        },
+        {
+          "nome": "3k5",
+          "pos": [
+            752,
+            135
+          ],
+          "estado": true
+        },
+        {
+          "nome": "3k3",
+          "pos": [
+            752,
+            190
+          ],
+          "estado": true
+        },
+        {
+          "nome": "9kt1",
+          "pos": [
+            467,
+            235
+          ],
+          "estado": true
+        },
+        {
+          "nome": "10kt2",
+          "pos": [
+            843,
+            235
+          ],
+          "estado": true
+        },
+        {
+          "nome": "409F5",
+          "pos": [
+            467,
+            363
+          ],
+          "estado": true
+        },
+        {
+          "nome": "409F3",
+          "pos": [
+            467,
+            424
+          ],
+          "estado": true
+        },
+        {
+          "nome": "409F6",
+          "pos": [
+            522,
+            392
+          ],
+          "estado": false
+        },
+        {
+          "nome": "414F5",
+          "pos": [
+            843,
+            363
+          ],
+          "estado": true
+        },
+        {
+          "nome": "414F3",
+          "pos": [
+            843,
+            424
+          ],
+          "estado": true
+        },
+        {
+          "nome": "414F6",
+          "pos": [
+            899,
+            394
+          ],
+          "estado": false
+        },
+        {
+          "nome": "404F3",
+          "pos": [
+            87,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "404F5",
+          "pos": [
+            87,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "405F3",
+          "pos": [
+            172,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "404F5",
+          "pos": [
+            172,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "405F3",
+          "pos": [
+            258,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "404F5",
+          "pos": [
+            258,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "407F3",
+          "pos": [
+            341,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "407F5",
+          "pos": [
+            341,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "410F3",
+          "pos": [
+            482,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "410F5",
+          "pos": [
+            482,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "412F3",
+          "pos": [
+            568,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "412F5",
+          "pos": [
+            568,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "413F3",
+          "pos": [
+            692,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "413F5",
+          "pos": [
+            692,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "415F3",
+          "pos": [
+            778,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "415F5",
+          "pos": [
+            778,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "416F3",
+          "pos": [
+            864,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "416F5",
+          "pos": [
+            864,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "417F3",
+          "pos": [
+            950,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "417F5",
+          "pos": [
+            950,
+            530
+          ],
+          "estado": true
+        },
+        {
+          "nome": "419F3",
+          "pos": [
+            1068,
+            474
+          ],
+          "estado": true
+        },
+        {
+          "nome": "419F5",
+          "pos": [
+            1068,
+            530
+          ],
+          "estado": true
+        }
+      ]
+    }
+  },
+  {
+    "nome": "Betim5",
+    "id": "betc",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Centro2",
+    "id": "bhct",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Cinco",
+    "id": "cinc",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Contagem1",
+    "id": "cicm",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Contagem3",
+    "id": "cemt",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Contagem5",
+    "id": "cemc",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Santaluzia1",
+    "id": "sluu",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Santaluzia2",
+    "id": "slud",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Santaluzia4",
+    "id": "sluq",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  },
+  {
+    "nome": "Sion",
+    "id": "bhsn",
+    "mapa": [
+      [
+        424,
+        163
+      ],
+      [
+        1071,
+        504
+      ]
+    ]
+  }
+]

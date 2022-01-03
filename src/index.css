@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1 {
+  color: aliceblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3 {
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
+
+.image-container {
+  position: relative;
+  background-color: beige;
+
+  width: auto;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-inner-container {
+  position: absolute;
+  margin: 20px;
+}
+.disjuntor {
+  width: 25px;
+  height: 25px;
+  background: blue;
+  position: absolute;
+  border: 2px solid black;
+  margin: 0;
+}
+
+.disjuntor:hover{
+  border-color: white;
+}
+.seccionadora {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border: 2px solid black;
+  margin: 0;
+  content: url('./Pages/chave_fechada.png') ;
+}
+
+.seccionadora:hover{
+  border-color: white;
+  opacity: 1;
+
+}
+

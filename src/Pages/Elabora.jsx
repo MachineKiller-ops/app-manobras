@@ -3,13 +3,13 @@ import './quadro.css';
 import React, { useState } from 'react';
 import * as data from './data.json';
 import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
-//import { ExportCSV } from '../ExportCSV';
-//import { MostraSM } from '../MostraSM';
+import { ExportCSV } from '../ExportCSV';
+import { MostraSM } from '../MostraSM';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
+    Link, // Não remover link pois pode ocorrer erro de referência
     useParams
 } from "react-router-dom";
 import chaveAberta from './chave_aberta.png'; // Tell Webpack this JS file uses this image
@@ -233,8 +233,6 @@ const Elabora = (props) => {
         setStepNumber(stepNumber + 1)
 
     }
-    console.log(id)
-    //const [conf, setConf] = useState(data.default.find(conf => conf.id === props.match.params.id)) // separa os dados de configuração da SE)
     const [conf, setConf] = useState(data.default.find(conf => conf.id === id)) // separa os dados de configuração da SE)
     const [stepNumber, setStepNumber] = useState(0)
     const [seqManobra, setSeqMan] = useState([])
@@ -304,11 +302,11 @@ const Elabora = (props) => {
 
 
                 }}>
-                    {/*                     <MostraSM data={seqManobra} mudaItem={(i, text) => { mudaItem(i, text) }} />
- */}                </div>
+                    <MostraSM data={seqManobra} mudaItem={(i, text) => { mudaItem(i, text) }} />
+                </div>
                 <div>
-                    {/*                     <ExportCSV csvData={seqManobra} fileName={fileName} />
- */}                </div>
+                    <ExportCSV csvData={seqManobra} fileName={fileName} />
+                </div>
             </div>
 
 

@@ -102,7 +102,7 @@ function Seccionadora(props) {
         position: 'absolute',
         left: `${props.x}px`, // cria figura do disjuntor na posição passada pela props
         top: `${props.y}px`,
-        //content: props.estado ? "url('./chave_fechada.png')" : "url('./chave_aberta.png')" // a cor é definida pelo estado do disjuntor
+        transform: props.horiz ? "rotate(90deg)" : "rotate(0deg)",
         content: props.estado ? `url(${chaveFechada})` : `url(${chaveAberta})` // a cor é definida pelo estado do disjuntor
     }
     return (
@@ -121,13 +121,14 @@ function Seccionadora(props) {
 const DiagramaSecc = (props) => {
 
 
-    const renderSecc = (x, y, estado, index) => {
+    const renderSecc = (x, y, estado, horiz, index) => {
 
         return <Seccionadora
             x={x} // envia coordenadas x e y para renderizar disjuntor
             y={y}
             estado={estado}
             index={index}
+            horiz={horiz}
             onClick={() => props.onClick(index)}
 
         />;
@@ -141,7 +142,7 @@ const DiagramaSecc = (props) => {
         mapa.map((dis, index) => { // cria loop em que se lê todos os disjuntores chamando a função de renderização para cada um deles
             return (
                 <div key={index}>
-                    {renderSecc(dis.pos[0], dis.pos[1], dis.estado, index)}
+                    {renderSecc(dis.pos[0], dis.pos[1], dis.estado, dis.horizontal, index)}
                 </div>
             );
         })

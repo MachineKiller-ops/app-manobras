@@ -448,7 +448,8 @@
             423,
             135
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "2k3",
@@ -456,7 +457,8 @@
             423,
             190
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "3k5",
@@ -464,7 +466,8 @@
             752,
             135
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "3k3",
@@ -472,7 +475,8 @@
             752,
             190
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "9kt1",
@@ -480,7 +484,8 @@
             467,
             235
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "10kt2",
@@ -488,7 +493,8 @@
             843,
             235
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "409F5",
@@ -496,7 +502,8 @@
             467,
             363
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "409F3",
@@ -504,7 +511,8 @@
             467,
             424
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "409F6",
@@ -512,7 +520,8 @@
             522,
             392
           ],
-          "estado": false
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "414F5",
@@ -520,7 +529,8 @@
             843,
             363
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "414F3",
@@ -528,7 +538,8 @@
             843,
             424
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "414F6",
@@ -536,7 +547,8 @@
             899,
             394
           ],
-          "estado": false
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "404F3",
@@ -544,7 +556,8 @@
             87,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "404F5",
@@ -552,7 +565,17 @@
             87,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "404F6",
+          "pos": [
+            122,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "405F3",
@@ -560,47 +583,80 @@
             172,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
-          "nome": "404F5",
+          "nome": "405F5",
           "pos": [
             172,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
-          "nome": "405F3",
+          "nome": "405F6",
           "pos": [
-            258,
-            474
+            207,
+            576
           ],
-          "estado": true
-        },
-        {
-          "nome": "404F5",
-          "pos": [
-            258,
-            530
-          ],
-          "estado": true
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "407F3",
           "pos": [
-            341,
+            258,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "407F5",
           "pos": [
+            258,
+            530
+          ],
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "407F6",
+          "pos": [
+            293,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
+        },
+        {
+          "nome": "408F3",
+          "pos": [
+            341,
+            474
+          ],
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "408F5",
+          "pos": [
             341,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "408F6",
+          "pos": [
+            376,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "410F3",
@@ -608,7 +664,8 @@
             482,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "410F5",
@@ -616,7 +673,17 @@
             482,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "410F6",
+          "pos": [
+            517,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "412F3",
@@ -624,7 +691,8 @@
             568,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "412F5",
@@ -632,7 +700,8 @@
             568,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "413F3",
@@ -640,7 +709,8 @@
             692,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "413F5",
@@ -648,7 +718,17 @@
             692,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "413F6",
+          "pos": [
+            727,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "415F3",
@@ -656,7 +736,8 @@
             778,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "415F5",
@@ -664,7 +745,17 @@
             778,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "415F6",
+          "pos": [
+            813,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "416F3",
@@ -672,7 +763,8 @@
             864,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "416F5",
@@ -680,7 +772,17 @@
             864,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "416F6",
+          "pos": [
+            899,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "417F3",
@@ -688,7 +790,8 @@
             950,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "417F5",
@@ -696,7 +799,17 @@
             950,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "417F6",
+          "pos": [
+            985,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
         },
         {
           "nome": "419F3",
@@ -704,7 +817,8 @@
             1068,
             474
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
         },
         {
           "nome": "419F5",
@@ -712,7 +826,35 @@
             1068,
             530
           ],
-          "estado": true
+          "estado": true,
+          "horizontal": false
+        },
+        {
+          "nome": "419F6",
+          "pos": [
+            1103,
+            576
+          ],
+          "estado": false,
+          "horizontal": false
+        },
+        {
+          "nome": "401F0",
+          "pos": [
+            550,
+            448
+          ],
+          "estado": true,
+          "horizontal": true
+        },
+        {
+          "nome": "402F0",
+          "pos": [
+            650,
+            448
+          ],
+          "estado": true,
+          "horizontal": true
         }
       ]
     }

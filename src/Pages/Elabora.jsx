@@ -269,7 +269,7 @@ const Elabora = (props) => {
             <div className="image-container">
                 <div className="image-inner-container">
                     <img src={process.env.PUBLIC_URL
-                        + "/img/" + conf.nome + ".png"} alt="" />
+                        + "/img/" + conf.id + ".png"} alt="" />
                     <DiagramaDisj
                         v={JSON.stringify(conf.mapa.disjuntores)} //Necessário conversão para JSON pois objetos não podem ser passados em props
                         onClick={i => { handleClickDisj(i) }}

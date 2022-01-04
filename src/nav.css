@@ -4,7 +4,7 @@ nav {
   align-items: center;
   min-height: 10vh;
   background: rgb(69, 172, 91);
-  color: white;
+
 }
 
 .nav-links {
@@ -13,4 +13,9 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }

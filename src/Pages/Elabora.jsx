@@ -1,7 +1,7 @@
 //import '../index.css';
 import './quadro.css';
-import React, { useState } from 'react';
-import * as data from './data.json';
+import React, { useState, useEffect } from 'react';
+//import * as data from './data.json';
 import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
 import { ExportCSV } from '../ExportCSV';
 import { MostraSM } from '../MostraSM';
@@ -14,6 +14,11 @@ import {
 } from "react-router-dom";
 import chaveAberta from './chave_aberta.png'; // Tell Webpack this JS file uses this image
 import chaveFechada from './chave_fechada.png'; // Tell Webpack this JS file uses this image
+
+import { db } from "../utils/firebase-config"
+import { getDatabase, ref, child, get } from "firebase/database";
+
+
 //import { auth, firestore } from '../App'
 
 /* import firebase from 'firebase/compat/app'
@@ -234,7 +239,25 @@ const Elabora = (props) => {
         setStepNumber(stepNumber + 1)
 
     }
-    const [conf, setConf] = useState(data.default.find(conf => conf.id === id)) // separa os dados de configuração da SE)
+    const [conf, setConf] = useState()
+    const [isLoading, setLoading] = useState(true)
+
+    //Carrega o banco de dados com as configurações das subestações
+    useEffect(() => {
+        const dbRef = ref(getDatabase());
+        get(child(dbRef, '/')).then((snapshot) => {
+            if (snapshot.exists()) {
+                setConf(snapshot.val().find(substation => substation.id === id)) // separa os dados de configuração da SE)
+                setLoading(false) //Evita que o componente seja renderizado antes de se obter a configuração
+            } else {
+                console.log("No data available");
+            }
+        }).catch((error) => {
+            console.error(error);
+        });
+    }, [])
+
+
     const [stepNumber, setStepNumber] = useState(0)
     const [seqManobra, setSeqMan] = useState([])
 
@@ -264,6 +287,12 @@ const Elabora = (props) => {
         //setHistory({ ...newHistory })
 
     }
+
+    //Evita que o componente seja renderizado antes que a configuração da SE seja carregada
+    if (isLoading) {
+        return null;
+    }
+
 
     return (
         <div>

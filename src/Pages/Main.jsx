@@ -1,35 +1,47 @@
-import React, { useState, useEffect } from 'react';
-//import { auth, firestore } from '../App'
-
-/* import firebase from 'firebase/compat/app'
-import 'firebase/compat/firestore'
-import 'firebase/compat/auth'
-
-import { useAuthState } from 'react-firebase-hooks/auth'
-import { useCollectionData } from 'react-firebase-hooks/firestore' */
+import React, { useState, useEffect, useRef } from 'react';
+import { db } from "../utils/firebase-config"
+import { getDatabase, ref, child, get } from "firebase/database";
 
 const Main = () => {
-    /* const [data, setData] = useState();
-    const [count, setCount] = useState(0);
-    const atualizaServer = () => {
-        setCount(count + 1);
-        fetch("/api/bhat")
-            .then((res) => res.json())
-            .then((data) => setData(data.nome));
-    }
 
+    const [title, setTitle] = useState('Geil')
+    const [conf, setConf] = useState()
     useEffect(() => {
-        fetch("/api/betq")
-            .then((res) => res.json())
-            .then((data) => setData(data.nome));
-    }, []);
+        const dbRef = ref(getDatabase());
+        get(child(dbRef, '/')).then((snapshot) => {
+            if (snapshot.exists()) {
+                console.log(snapshot.val());
+                setConf(snapshot.val())
+            } else {
+                console.log("No data available");
+            }
+        }).catch((error) => {
+            console.error(error);
+        });
+    }, [])
 
-    const messagesRef = firestore.collection('SEs')
-    const query = messagesRef
+    const handleClick = () => {
+        /* const seRef = db.database().ref("ses")
+        const todo = {
+            title,
+            complete: false,
+        }
+        seRef.push(todo) 
+        let conf
+        const dbRef = ref(getDatabase());
+        get(child(dbRef, '/')).then((snapshot) => {
+            if (snapshot.exists()) {
+                console.log(snapshot.val());
+                conf = snapshot.val()
+            } else {
+                console.log("No data available");
+            }
+        }).catch((error) => {
+            console.error(error);
+        });
 
-    const [messages] = useCollectionData(query)
-
-    console.log(messages) */
+        */
+    }
 
 
     return (
@@ -52,7 +64,7 @@ const Main = () => {
                     margin: '0 20%',
                     padding: '5em',
                     border: '2px solid black'
-                }} >Hello</h3>
+                }} >{!conf ? "Loading..." : JSON.stringify(conf)}</h3>
 
             </div>
             <button style={{
@@ -61,7 +73,7 @@ const Main = () => {
                 top: '50%',
                 left: '50%',
                 transform: 'translate(-50%, -50%)'
-            }} /* onClick={atualizaServer} */ >Click me!</button>
+            }} onClick={handleClick} >Click me!</button>
 
         </div>
     );

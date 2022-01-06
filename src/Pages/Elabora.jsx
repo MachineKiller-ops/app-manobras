@@ -128,6 +128,11 @@ function Disjuntor(props) {
                         <span>{infoDis.c69bc ? 'Bloquear relé 87' : 'Desbloquear relé 87'}</span>
                     </MenuItem>
                 }
+                {infoDis.c43t !== undefined &&
+                    <MenuItem onClick={() => { props.set43t() }}>
+                        <span>{infoDis.c43t ? 'Tranferir proteção' : 'Normalizar proteção'}</span>
+                    </MenuItem>
+                }
                 <MenuItem onClick={() => { props.setSc() }}>
                     <span>{infoDis.sc ? 'Desabilita Remoto' : 'Habilita Remoto'}</span>
                 </MenuItem>

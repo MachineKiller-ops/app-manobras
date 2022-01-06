@@ -9,6 +9,7 @@ nav.react-contextmenu {
     padding: 10px 0;
     z-index: 99;
     box-shadow: 0 0 20px rgba(0,0,0,.2);
+    flex-direction: column;
   }
   .react-contextmenu .react-contextmenu-item:hover{
   background: #cccccc;

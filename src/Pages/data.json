@@ -248,7 +248,8 @@
           ],
           "estado": true,
           "ra": true,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "3K4",
@@ -258,7 +259,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "9K4",
@@ -268,7 +270,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "10K4",
@@ -278,7 +281,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "403F4",
@@ -288,7 +292,8 @@
           ],
           "estado": false,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "406F4",
@@ -298,7 +303,8 @@
           ],
           "estado": false,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "409F4",
@@ -308,7 +314,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "414F4",
@@ -318,7 +325,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "418F4",
@@ -328,7 +336,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "404F4",
@@ -338,7 +347,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "405F4",
@@ -348,7 +358,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "407F4",
@@ -358,7 +369,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "408F4",
@@ -368,7 +380,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "410F4",
@@ -378,7 +391,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "412F4",
@@ -388,7 +402,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "413F4",
@@ -398,7 +413,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "415F4",
@@ -408,7 +424,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "416F4",
@@ -418,7 +435,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "417F4",
@@ -428,7 +446,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         },
         {
           "nome": "419F4",
@@ -438,7 +457,8 @@
           ],
           "estado": true,
           "ra": false,
-          "rn": false
+          "rn": false,
+          "sc": true
         }
       ],
       "seccionadoras": [

@@ -19,16 +19,6 @@ import { db } from "../utils/firebase-config"
 import { getDatabase, ref, child, get } from "firebase/database";
 
 
-//import { auth, firestore } from '../App'
-
-/* import firebase from 'firebase/compat/app'
-import 'firebase/compat/firestore'
-import 'firebase/compat/auth'
-
-import { useAuthState } from 'react-firebase-hooks/auth'
-import { useCollectionData } from 'react-firebase-hooks/firestore' */
-
-
 function Disjuntor(props) {
 
     //console.log(props)
@@ -50,7 +40,9 @@ function Disjuntor(props) {
                 </button>
             </ContextMenuTrigger>
 
-            <ContextMenu id={`contextmenu${props.index}`}>
+            <ContextMenu
+                id={`contextmenu${props.index}`}
+            >
                 <MenuItem onClick={() => { props.setRa() }}>
                     <span>{props.ra ? 'Bloquear RA' : 'Desbloquear RA'}</span>
                 </MenuItem>
@@ -249,6 +241,7 @@ const Elabora = (props) => {
             if (snapshot.exists()) {
                 setConf(snapshot.val().find(substation => substation.id === id)) // separa os dados de configuração da SE)
                 setLoading(false) //Evita que o componente seja renderizado antes de se obter a configuração
+                console.log(conf)
             } else {
                 console.log("No data available");
             }
@@ -261,14 +254,9 @@ const Elabora = (props) => {
     const [stepNumber, setStepNumber] = useState(0)
     const [seqManobra, setSeqMan] = useState([])
 
-    //console.log(conf)
 
-    const fileName = 'TechnicalAddaBetter'
 
-    /*     const messagesRef = firestore.collection('SEs')
-        const query = messagesRef
-    
-        const [messages] = useCollectionData(query) */
+    const fileName = 'Sequência de Manobras'
 
     const mudaItem = (i, text) => {
         console.log('item de manobra' + i)
@@ -278,14 +266,6 @@ const Elabora = (props) => {
         console.log(newSeq)
         console.log(seqManobra)
         setSeqMan(newSeq)
-        //const newHistory = history
-        //console.log(history[history.length - 1].seqMan[i])
-        //newHistory[history.length - 1].seqMan[i] = e
-        //console.log('primeiro' + newHistory[history.length - 1].seqMan[i])
-        //console.log(newHistory[history.length - 1])
-
-        //setHistory({ ...newHistory })
-
     }
 
     //Evita que o componente seja renderizado antes que a configuração da SE seja carregada

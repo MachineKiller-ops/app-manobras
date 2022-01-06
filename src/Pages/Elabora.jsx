@@ -231,6 +231,8 @@ const Elabora = (props) => {
         setStepNumber(stepNumber + 1)
 
     }
+
+
     const [conf, setConf] = useState()
     const [isLoading, setLoading] = useState(true)
 
@@ -265,6 +267,19 @@ const Elabora = (props) => {
         newSeq[i] = text
         console.log(newSeq)
         console.log(seqManobra)
+        setSeqMan(newSeq)
+    }
+
+    const addLinha = (i) => {
+        const newSeq = seqManobra.slice()
+        newSeq.splice(i + 1, 0, '')
+        setSeqMan(newSeq)
+    }
+
+    const removeLinha = (i) => {
+        const newSeq = seqManobra.slice()
+        newSeq.splice(i, 1)
+        console.log(newSeq)
         setSeqMan(newSeq)
     }
 
@@ -312,7 +327,7 @@ const Elabora = (props) => {
 
 
                 }}>
-                    <MostraSM data={seqManobra} mudaItem={(i, text) => { mudaItem(i, text) }} />
+                    <MostraSM data={seqManobra} mudaItem={(i, text) => { mudaItem(i, text) }} addLinha={i => addLinha(i)} removeLinha={i => removeLinha(i)} />
                 </div>
                 <div>
                     <ExportCSV csvData={seqManobra} fileName={fileName} />

@@ -1,0 +1,43 @@
+.itemManobra{
+    width: 50em;
+}
+
+.addLinha {
+    display: inline-block;
+    background: rgb(39, 170, 231);
+    color: white;
+    border-radius: 5px;
+    width: 30px;
+    text-align: center;
+    opacity: 0;
+
+}
+
+.addLinha:hover {
+    opacity: 1;
+}
+
+.removeLinha {
+    display: inline-block;
+    background: rgb(238, 88, 88);
+    color: white;
+    border-radius: 5px;
+    width: 30px;
+    text-align: center;
+    opacity: 0;
+
+}
+
+.removeLinha:hover {
+    opacity: 1;
+}
+
+
+.showButtons:hover .addLinha{
+    opacity: 1;
+}
+
+.showButtons:hover .removeLinha{
+    opacity: 1;
+}
+

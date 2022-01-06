@@ -22,35 +22,114 @@ import { getDatabase, ref, child, get } from "firebase/database";
 function Disjuntor(props) {
 
     //console.log(props)
+    let infoDis = JSON.parse(props.disInfo)
 
     return (
         <>
             <ContextMenuTrigger id={`contextmenu${props.index}`}>  {/* Especifica objeto que será gatilho para context-menu */}
-                <button
-                    className="disjuntor"
-                    style={{
-                        position: 'absolute',
-                        left: `${props.x}px`, // cria figura do disjuntor na posição passada pela props
-                        top: `${props.y}px`,
-                        backgroundColor: props.estado ? 'red' : 'green'// a cor é definida pelo estado do disjuntor
-                    }}
-                    onClick={() => props.onClick()}
-                >
-                    {props.index}
-                </button>
+                <div className='equipContainer'>
+                    <button
+                        className="disjuntor"
+                        style={{
+                            position: 'absolute',
+                            left: `${infoDis.pos[0]}px`, // cria figura do disjuntor na posição passada pela props
+                            top: `${infoDis.pos[1]}px`,
+                            backgroundColor: infoDis.estado ? 'red' : 'green'// a cor é definida pelo estado do disjuntor
+                        }}
+                        onClick={() => props.onClick()}
+                    >
+                        {props.index}
+                    </button>
+                    <div
+                        className="opcoes"
+                        style={{
+                            fontFamily: 'arial',
+                            position: 'absolute',
+                            left: `${infoDis.pos[0] + 50}px`, // cria figura do disjuntor na posição passada pela props
+                            top: `${infoDis.pos[1]}px`,
+                            backgroundColor: 'white',
+                            display: 'block'
+                        }}
+                    >
+                        {infoDis.sc !== undefined &&
+
+                            <div
+                                style={{
+                                    color: infoDis.sc ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    width: '3em',
+                                    backgroundColor: 'white'
+                                }}
+                            >SC
+                            </div>
+                        }
+                        {infoDis.ra !== undefined &&
+
+                            <div
+                                style={{
+                                    color: infoDis.ra ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    width: '3em',
+                                    border: 'none'
+                                }}
+                            >RA
+                            </div>
+                        }
+
+                        {infoDis.rn !== undefined &&
+                            <div
+                                style={{
+                                    color: infoDis.rn ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    width: '3em',
+                                    border: 'none'
+                                }}
+                            >RN
+                            </div>
+                        }
+
+                        {infoDis.c69bc !== undefined &&
+                            <div
+                                style={{
+                                    color: infoDis.c69bc ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    width: '3em',
+                                    border: 'none'
+                                }}
+                            >69BC
+                            </div>
+                        }
+
+                        {infoDis.c43t !== undefined &&
+                            <div
+                                style={{
+                                    color: infoDis.c43t ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    width: '3em',
+                                    border: 'none'
+                                }}
+                            >43T
+                            </div>
+                        }
+                    </div>
+                </div>
             </ContextMenuTrigger>
 
             <ContextMenu
                 id={`contextmenu${props.index}`}
             >
-                <MenuItem onClick={() => { props.setRa() }}>
-                    <span>{props.ra ? 'Bloquear RA' : 'Desbloquear RA'}</span>
-                </MenuItem>
-                <MenuItem onClick={() => { props.setRn() }}>
-                    <span>{props.rn ? 'Bloquear RN' : 'Desbloquear RN'}</span>
-                </MenuItem>
+                {infoDis.ra !== undefined &&
+                    <MenuItem onClick={() => { props.setRa() }}>
+                        <span>{infoDis.ra ? 'Bloquear RA' : 'Desbloquear RA'}</span>
+                    </MenuItem>
+                }
+                {infoDis.rn !== undefined &&
+                    <MenuItem onClick={() => { props.setRn() }}>
+                        <span>{infoDis.rn ? 'Bloquear RN' : 'Desbloquear RN'}</span>
+                    </MenuItem>
+                }
+                {infoDis.c69bc !== undefined &&
+                    <MenuItem onClick={() => { props.set69bc() }}>
+                        <span>{infoDis.c69bc ? 'Bloquear relé 87' : 'Desbloquear relé 87'}</span>
+                    </MenuItem>
+                }
                 <MenuItem onClick={() => { props.setSc() }}>
-                    <span>{props.sc ? 'Desabilita Remoto' : 'Habilita Remoto'}</span>
+                    <span>{infoDis.sc ? 'Desabilita Remoto' : 'Habilita Remoto'}</span>
                 </MenuItem>
             </ContextMenu>
         </>
@@ -62,20 +141,17 @@ function Disjuntor(props) {
 const DiagramaDisj = (props) => {
 
 
-    const renderDisjuntor = (x, y, estado, ra, rn, sc, index) => {
+    const renderDisjuntor = (disInfo, index) => {
 
         return <Disjuntor
-            x={x} // envia coordenadas x e y para renderizar disjuntor
-            y={y}
-            estado={estado}
-            ra={ra}
-            rn={rn}
-            sc={sc}
+            disInfo={disInfo}
             index={index}
             onClick={() => props.onClick(index)}
             setRa={() => props.setRa(index)}
             setRn={() => props.setRn(index)}
             setSc={() => props.setSc(index)}
+            set43t={() => props.set43t(index)}
+            set69bc={() => props.set69bc(index)}
         />;
     }
 
@@ -84,9 +160,11 @@ const DiagramaDisj = (props) => {
     return (
 
         mapa.map((dis, index) => { // cria loop em que se lê todos os disjuntores chamando a função de renderização para cada um deles
+            let disInfo = JSON.stringify(dis)
+            console.log(disInfo)
             return (
                 <div key={index}>
-                    {renderDisjuntor(dis.pos[0], dis.pos[1], dis.estado, dis.ra, dis.rn, dis.sc, index)}
+                    {renderDisjuntor(disInfo, index)}
                 </div>
             );
         })
@@ -153,6 +231,11 @@ const Elabora = (props) => {
 
     const handleClickDisj = (i) => {
 
+        if (conf.mapa.disjuntores[i].sc) {
+            //alert('O equipamento não pode ser operado, pois está em REMOTO.')
+            return
+        }
+
         let itemMan = ''
 
         let confTemp = conf  // copia conf
@@ -161,7 +244,7 @@ const Elabora = (props) => {
         // neste caso o que ocorreu é que o disjuntor não mudava de cor
         console.log('estado: ' + conf.mapa.disjuntores[i].estado);
 
-        itemMan = conf.mapa.disjuntores[i].estado ? 'Fechar disjuntor ' + conf.mapa.disjuntores[i].nome : 'Abrir disjuntor ' + conf.mapa.disjuntores[i].nome
+        itemMan = conf.mapa.disjuntores[i].estado ? 'Fechar disjuntor ' + conf.mapa.disjuntores[i].nome + '4' : 'Abrir disjuntor ' + conf.mapa.disjuntores[i].nome + '4'
 
         setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
@@ -186,6 +269,10 @@ const Elabora = (props) => {
 
     }
     const toggleRa = (i) => {
+        if (conf.mapa.disjuntores[i].sc) {
+            //alert('O equipamento não pode ser operado, pois está em REMOTO.')
+            return
+        }
 
         let itemMan = ''
 
@@ -193,7 +280,7 @@ const Elabora = (props) => {
         confTemp.mapa.disjuntores[i].ra = !confTemp.mapa.disjuntores[i].ra; // muda o estado do disjuntor
         setConf({ ...confTemp })
         console.log('ra: ' + conf.mapa.disjuntores[i].ra);
-        itemMan = conf.mapa.disjuntores[i].ra ? 'Desbloquear RA disjuntor ' + conf.mapa.disjuntores[i].nome : 'Bloquear RA do disjuntor ' + conf.mapa.disjuntores[i].nome
+        itemMan = conf.mapa.disjuntores[i].ra ? 'Desbloquear RA disjuntor ' + conf.mapa.disjuntores[i].nome + '4' : 'Bloquear RA do disjuntor ' + conf.mapa.disjuntores[i].nome + '4'
 
         setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
@@ -201,6 +288,10 @@ const Elabora = (props) => {
 
     }
     const toggleRn = (i) => {
+        if (conf.mapa.disjuntores[i].sc) {
+            //alert('O equipamento não pode ser operado, pois está em REMOTO.')
+            return
+        }
 
         let itemMan = ''
         let confTemp = conf; // copia conf
@@ -209,7 +300,7 @@ const Elabora = (props) => {
         confTemp.mapa.disjuntores[i].rn = !confTemp.mapa.disjuntores[i].rn; // muda o estado do disjuntor
         setConf({ ...confTemp })
         console.log('rn: ' + conf.mapa.disjuntores[i].rn);
-        itemMan = conf.mapa.disjuntores[i].rn ? 'Desbloquear RN disjuntor ' + conf.mapa.disjuntores[i].nome : 'Bloquear RN do disjuntor ' + conf.mapa.disjuntores[i].nome
+        itemMan = conf.mapa.disjuntores[i].rn ? 'Desbloquear RN disjuntor ' + conf.mapa.disjuntores[i].nome + '4' : 'Bloquear RN do disjuntor ' + conf.mapa.disjuntores[i].nome + '4'
 
         setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
@@ -225,7 +316,49 @@ const Elabora = (props) => {
 
         console.log('sc: ' + conf.mapa.disjuntores[i].sc);
         itemMan = conf.mapa.disjuntores[i].sc ? 'Colocar chave ' + conf.mapa.disjuntores[i].nome
-            + '3SC na posição REMOTO' : 'Colocar chave ' + conf.mapa.disjuntores[i].nome + '3SC na posição LOCAL'
+            + '43SC na posição REMOTO' : 'Colocar chave ' + conf.mapa.disjuntores[i].nome + '43SC na posição LOCAL'
+
+        setSeqMan(seqManobra.concat(itemMan))
+        setStepNumber(stepNumber + 1)
+
+    }
+
+    const toggle43t = (i) => {
+        if (conf.mapa.disjuntores[i].sc) {
+            //alert('O equipamento não pode ser operado, pois está em REMOTO.')
+            return
+        }
+
+        let itemMan = ''
+
+        let confTemp = conf
+        confTemp.mapa.disjuntores[i].c43t = !confTemp.mapa.disjuntores[i].c43t;
+        setConf({ ...confTemp })
+
+        console.log('sc: ' + conf.mapa.disjuntores[i].c43t);
+        itemMan = conf.mapa.disjuntores[i].c43t ? 'Colocar chave ' + conf.mapa.disjuntores[i].nome
+            + '43T na posição NORMAL' : 'Colocar chave ' + conf.mapa.disjuntores[i].nome + '43T na posição TRANSFERE.'
+
+        setSeqMan(seqManobra.concat(itemMan))
+        setStepNumber(stepNumber + 1)
+
+    }
+
+    const toggle69bc = (i) => {
+        if (conf.mapa.disjuntores[i].sc) {
+            //alert('O equipamento não pode ser operado, pois está em REMOTO.')
+            return
+        }
+
+        let itemMan = ''
+
+        let confTemp = conf
+        confTemp.mapa.disjuntores[i].c69bc = !confTemp.mapa.disjuntores[i].c69bc;
+        setConf({ ...confTemp })
+
+        console.log('sc: ' + conf.mapa.disjuntores[i].c69bc);
+        itemMan = conf.mapa.disjuntores[i].c69bc ? 'Colocar chave ' + conf.mapa.disjuntores[i].nome
+            + '69BC na posição DESLIGADA' : 'Colocar chave ' + conf.mapa.disjuntores[i].nome + '69BC na posição LIGADA.'
 
         setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
@@ -301,6 +434,8 @@ const Elabora = (props) => {
                         setRa={i => { toggleRa(i) }}
                         setRn={i => { toggleRn(i) }}
                         setSc={i => { toggleSc(i) }}
+                        set69bc={i => { toggle69bc(i) }}
+                        set43t={i => { toggle43t(i) }}
                     />
                     <DiagramaSecc
                         v={JSON.stringify(conf.mapa.seccionadoras)} //Necessário conversão para JSON pois objetos não podem ser passados em props

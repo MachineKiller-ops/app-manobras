@@ -4,11 +4,10 @@ import './mostrasm.css'
 export const MostraSM = (props) => {
 
 
-    //console.log(props.data[0])
     return (
 
         props.data.map((item,index)=>{
-            //console.log(index)
+
             return(
                 <div key={index} className="showButtons">
                     
@@ -17,7 +16,7 @@ export const MostraSM = (props) => {
                         className="itemManobra"
                         onChange={e => {
                             props.mudaItem(index,e.target.value)
-                            //console.log(e.target.value)
+
                             }
                         }
                     />

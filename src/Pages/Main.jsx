@@ -1,12 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { db } from "../utils/firebase-config"
 import { getDatabase, ref, child, get } from "firebase/database";
+import axios from 'axios';
 
 const Main = () => {
 
-    const [title, setTitle] = useState('Geil')
-    const [conf, setConf] = useState()
-    useEffect(() => {
+    //const [title, setTitle] = useState('Geil')
+    //const [conf, setConf] = useState()
+    let sequencia = { title: 'alice in wonderland', body: 'ljskafdlkjsdfalksfj' }
+
+
+    /* useEffect(() => {
         const dbRef = ref(getDatabase());
         get(child(dbRef, '/')).then((snapshot) => {
             if (snapshot.exists()) {
@@ -18,29 +22,41 @@ const Main = () => {
         }).catch((error) => {
             console.error(error);
         });
-    }, [])
+    }, []) */
 
     const handleClick = () => {
-        /* const seRef = db.database().ref("ses")
-        const todo = {
-            title,
-            complete: false,
-        }
-        seRef.push(todo) 
-        let conf
-        const dbRef = ref(getDatabase());
-        get(child(dbRef, '/')).then((snapshot) => {
-            if (snapshot.exists()) {
-                console.log(snapshot.val());
-                conf = snapshot.val()
-            } else {
-                console.log("No data available");
-            }
-        }).catch((error) => {
-            console.error(error);
+        /*    var request = new XMLHttpRequest();
+           request.open('GET', 'http://localhost:5000/', true);
+           request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+           request.send(JSON.stringify(sequencia));
+           console.log(JSON.stringify(sequencia))
+    */
+
+        // first try
+        /* fetch('http://127.0.0.1:5000', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+        })
+            .then((response) => response.json())
+            .then((data) => console.log(data));
+
+ */
+
+        // second try
+        axios.get('https://python-server-app-manobras.herokuapp.com/', {
+            //axios.get('http://127.0.0.1:5004/', {
+            method: 'GET',
+            responseType: 'blob', // important
+        }).then((response) => {
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', `Sequencia_de_manobras.xlsx`);
+            document.body.appendChild(link);
+            link.click();
+            //console.log(link)
         });
 
-        */
     }
 
 
@@ -64,7 +80,7 @@ const Main = () => {
                     margin: '0 20%',
                     padding: '5em',
                     border: '2px solid black'
-                }} >{!conf ? "Loading..." : JSON.stringify(conf)}</h3>
+                }} >"Loading..."</h3>
 
             </div>
             <button style={{

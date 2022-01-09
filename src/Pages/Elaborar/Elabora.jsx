@@ -1,5 +1,5 @@
 //import '../index.css';
-import './quadro.css';
+import '../quadro.css';
 import React, { useState, useEffect } from 'react';
 //import * as data from './data.json';
 import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
@@ -12,16 +12,16 @@ import {
     Link, // Não remover link pois pode ocorrer erro de referência
     useParams
 } from "react-router-dom";
-import chaveAberta from './chave_aberta.png'; // Tell Webpack this JS file uses this image
-import chaveFechada from './chave_fechada.png'; // Tell Webpack this JS file uses this image
 
-import { db } from "../utils/firebase-config"
+import chaveAberta from '../chave_aberta.png'; // Tell Webpack this JS file uses this image
+import chaveFechada from '../chave_fechada.png'; // Tell Webpack this JS file uses this image
+
+import { db } from "../../utils/firebase-config"
 import { getDatabase, ref, child, get } from "firebase/database";
 
 
 function Disjuntor(props) {
 
-    //console.log(props)
     let infoDis = JSON.parse(props.disInfo)
 
     return (
@@ -166,7 +166,6 @@ const DiagramaDisj = (props) => {
 
         mapa.map((dis, index) => { // cria loop em que se lê todos os disjuntores chamando a função de renderização para cada um deles
             let disInfo = JSON.stringify(dis)
-            console.log(disInfo)
             return (
                 <div key={index}>
                     {renderDisjuntor(disInfo, index)}
@@ -370,7 +369,6 @@ const Elabora = (props) => {
 
     }
 
-
     const [conf, setConf] = useState()
     const [isLoading, setLoading] = useState(true)
 
@@ -472,6 +470,7 @@ const Elabora = (props) => {
                 <div>
                     <ExportCSV csvData={seqManobra} fileName={fileName} />
                 </div>
+
             </div>
 
 

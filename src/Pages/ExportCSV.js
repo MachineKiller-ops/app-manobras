@@ -1,6 +1,7 @@
 import React from 'react'
 import * as FileSaver from 'file-saver';
 import * as XLSX from 'xlsx';
+import axios from 'axios';
 
 export const ExportCSV = ({csvData, fileName}) => {
 
@@ -8,34 +9,26 @@ export const ExportCSV = ({csvData, fileName}) => {
     const fileExtension = '.xlsx';
     const exportToCSV = (csvData, fileName) => {
 
-        let sequence = '['
-
-        for (let i in csvData){
-            console.log(csvData[i])
-            sequence = sequence.concat(`{"Sequência de Manobras": "${csvData[i]}"}`)
-            if(i<csvData.length-1)sequence = sequence.concat(`,`)
-        }
-        sequence = sequence.concat(']')
-
-        //sequence = `[{"item": "afsdsad"}]`
-
-        console.log(sequence)
-        let sequenceParse = JSON.parse(sequence)
+        const json = JSON.stringify(csvData);
 
 
-        const ws = XLSX.utils.json_to_sheet(sequenceParse);
-
-        const wb = { Sheets: { 'data': ws }, SheetNames: ['data'] };
-
-        const excelBuffer = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
-
-        const data = new Blob([excelBuffer], {type: fileType});
-
-        FileSaver.saveAs(data, fileName + fileExtension);
+        axios.post('https://python-server-app-manobras.herokuapp.com/', json, {
+        //axios.post('http://127.0.0.1:5006/', json, {
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            responseType: 'blob', // important
+        }).then((response) => {
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', `${fileName}.xlsx`);
+            document.body.appendChild(link);
+            link.click();
+            console.log(link)
+        });
 
     }
-
-
 
     return (
 

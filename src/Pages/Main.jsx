@@ -7,8 +7,9 @@ const Main = () => {
 
     //const [title, setTitle] = useState('Geil')
     //const [conf, setConf] = useState()
-    let sequencia = { title: 'alice in wonderland', body: 'ljskafdlkjsdfalksfj' }
-
+    let sequencia = new Array('Abrir chave', 'fechar cahve')
+    const json = JSON.stringify(sequencia);
+    console.log(json)
 
     /* useEffect(() => {
         const dbRef = ref(getDatabase());
@@ -43,9 +44,11 @@ const Main = () => {
  */
 
         // second try
-        axios.get('https://python-server-app-manobras.herokuapp.com/', {
-            //axios.get('http://127.0.0.1:5004/', {
-            method: 'GET',
+        //axios.post('https://python-server-app-manobras.herokuapp.com/', json, {
+        axios.post('http://127.0.0.1:5005/', json, {
+            headers: {
+                'Content-Type': 'application/json'
+            },
             responseType: 'blob', // important
         }).then((response) => {
             const url = window.URL.createObjectURL(new Blob([response.data]));
@@ -54,7 +57,7 @@ const Main = () => {
             link.setAttribute('download', `Sequencia_de_manobras.xlsx`);
             document.body.appendChild(link);
             link.click();
-            //console.log(link)
+            console.log(link)
         });
 
     }

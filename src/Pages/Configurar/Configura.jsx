@@ -3,8 +3,6 @@ import '../quadro.css';
 import React, { useState, useEffect } from 'react';
 //import * as data from './data.json';
 import { ContextMenu, MenuItem, ContextMenuTrigger } from "react-contextmenu";
-import { ExportCSV } from '../ExportCSV';
-import { MostraSM } from '../MostraSM';
 import {
     BrowserRouter as Router,
     Switch,
@@ -18,6 +16,7 @@ import chaveFechada from '../chave_fechada.png'; // Tell Webpack this JS file us
 
 import { db } from "../../utils/firebase-config"
 import { getDatabase, ref, child, get } from "firebase/database";
+import { SalvaConf } from './SalvaConf';
 
 
 function Disjuntor(props) {
@@ -235,26 +234,13 @@ const Elabora = (props) => {
 
     const handleClickDisj = (i) => {
 
-        if (conf.mapa.disjuntores[i].sc) {
-            //alert('O equipamento não pode ser operado, pois está em REMOTO.')
-            return
-        }
-
-        let itemMan = ''
-
         let confTemp = conf  // copia conf
         confTemp.mapa.disjuntores[i].estado = confTemp.mapa.disjuntores[i].estado ? 0 : 1; // muda o estado do disjuntor
         setConf({ ...confTemp }) // o spread é necessário para que o react entenda q haja uma mudança e as propague para os componentes, caso isso n seja feito, a mudança n se propaga
         // neste caso o que ocorreu é que o disjuntor não mudava de cor
         console.log('estado: ' + conf.mapa.disjuntores[i].estado);
 
-        itemMan = conf.mapa.disjuntores[i].estado ? 'Fechar disjuntor ' + conf.mapa.disjuntores[i].nome + '4' : 'Abrir disjuntor ' + conf.mapa.disjuntores[i].nome + '4'
-
-        setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
-
-        console.log(seqManobra)
-
 
     }
     const handleClickSecc = (i) => {
@@ -268,7 +254,6 @@ const Elabora = (props) => {
         console.log('estado: ' + conf.mapa.seccionadoras[i].estado);
         itemMan = conf.mapa.seccionadoras[i].estado ? 'Fechar chave seccionadora ' + conf.mapa.seccionadoras[i].nome : 'Abrir chave seccionadora ' + conf.mapa.seccionadoras[i].nome
 
-        setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
 
     }
@@ -286,7 +271,6 @@ const Elabora = (props) => {
         console.log('ra: ' + conf.mapa.disjuntores[i].ra);
         itemMan = conf.mapa.disjuntores[i].ra ? 'Desbloquear RA disjuntor ' + conf.mapa.disjuntores[i].nome + '4' : 'Bloquear RA do disjuntor ' + conf.mapa.disjuntores[i].nome + '4'
 
-        setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
 
 
@@ -306,7 +290,6 @@ const Elabora = (props) => {
         console.log('rn: ' + conf.mapa.disjuntores[i].rn);
         itemMan = conf.mapa.disjuntores[i].rn ? 'Desbloquear RN disjuntor ' + conf.mapa.disjuntores[i].nome + '4' : 'Bloquear RN do disjuntor ' + conf.mapa.disjuntores[i].nome + '4'
 
-        setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
 
     }
@@ -322,7 +305,6 @@ const Elabora = (props) => {
         itemMan = conf.mapa.disjuntores[i].sc ? 'Colocar chave ' + conf.mapa.disjuntores[i].nome
             + '43SC na posição REMOTO' : 'Colocar chave ' + conf.mapa.disjuntores[i].nome + '43SC na posição LOCAL'
 
-        setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
 
     }
@@ -343,7 +325,6 @@ const Elabora = (props) => {
         itemMan = conf.mapa.disjuntores[i].c43t ? 'Colocar chave ' + conf.mapa.disjuntores[i].nome
             + '43T na posição NORMAL' : 'Colocar chave ' + conf.mapa.disjuntores[i].nome + '43T na posição TRANSFERE.'
 
-        setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
 
     }
@@ -364,7 +345,6 @@ const Elabora = (props) => {
         itemMan = conf.mapa.disjuntores[i].c69bc ? 'Colocar chave ' + conf.mapa.disjuntores[i].nome
             + '69BC na posição DESLIGADA' : 'Colocar chave ' + conf.mapa.disjuntores[i].nome + '69BC na posição LIGADA.'
 
-        setSeqMan(seqManobra.concat(itemMan))
         setStepNumber(stepNumber + 1)
 
     }
@@ -388,36 +368,8 @@ const Elabora = (props) => {
         });
     }, [])
 
-
+    console.log(id)
     const [stepNumber, setStepNumber] = useState(0)
-    const [seqManobra, setSeqMan] = useState([])
-
-
-
-    const fileName = 'Sequência de Manobras'
-
-    const mudaItem = (i, text) => {
-        console.log('item de manobra' + i)
-        const newSeq = seqManobra.slice()
-
-        newSeq[i] = text
-        console.log(newSeq)
-        console.log(seqManobra)
-        setSeqMan(newSeq)
-    }
-
-    const addLinha = (i) => {
-        const newSeq = seqManobra.slice()
-        newSeq.splice(i + 1, 0, '')
-        setSeqMan(newSeq)
-    }
-
-    const removeLinha = (i) => {
-        const newSeq = seqManobra.slice()
-        newSeq.splice(i, 1)
-        console.log(newSeq)
-        setSeqMan(newSeq)
-    }
 
     //Evita que o componente seja renderizado antes que a configuração da SE seja carregada
     if (isLoading) {
@@ -446,33 +398,21 @@ const Elabora = (props) => {
                     />
 
 
+                    <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexDirection: 'column',
+                        padding: '15px'
 
+                    }}>
+
+
+                        <div>
+                            <SalvaConf conf={conf} id={id} />
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexDirection: 'column'
-
-            }}>
-                <div style={{
-                    padding: '20px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexDirection: 'column',
-                    color: 'black'
-
-                }}>
-                    <h2>Sequência de Manobras</h2>
-                    <MostraSM data={seqManobra} mudaItem={(i, text) => { mudaItem(i, text) }} addLinha={i => addLinha(i)} removeLinha={i => removeLinha(i)} />
-                </div>
-                <div>
-                    <button>Elaborar Manobra de Normalização</button>
-                    <ExportCSV csvData={seqManobra} fileName={fileName} />
-                </div>
-
             </div>
 
 

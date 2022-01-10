@@ -11,37 +11,7 @@ const Main = () => {
     const json = JSON.stringify(sequencia);
     console.log(json)
 
-    /* useEffect(() => {
-        const dbRef = ref(getDatabase());
-        get(child(dbRef, '/')).then((snapshot) => {
-            if (snapshot.exists()) {
-                console.log(snapshot.val());
-                setConf(snapshot.val())
-            } else {
-                console.log("No data available");
-            }
-        }).catch((error) => {
-            console.error(error);
-        });
-    }, []) */
-
     const handleClick = () => {
-        /*    var request = new XMLHttpRequest();
-           request.open('GET', 'http://localhost:5000/', true);
-           request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
-           request.send(JSON.stringify(sequencia));
-           console.log(JSON.stringify(sequencia))
-    */
-
-        // first try
-        /* fetch('http://127.0.0.1:5000', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-        })
-            .then((response) => response.json())
-            .then((data) => console.log(data));
-
- */
 
         // second try
         //axios.post('https://python-server-app-manobras.herokuapp.com/', json, {

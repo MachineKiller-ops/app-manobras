@@ -418,6 +418,37 @@ const Elabora = (props) => {
         console.log(newSeq)
         setSeqMan(newSeq)
     }
+    let seqIsolar = []
+    let seqNormalizar = []
+
+    const [normalizar, setNormalizar] = useState(false)
+    const [manobras, setManobras] = useState({ seqIsolar, seqNormalizar })
+
+    //Ao clicar se criar um item de manobra o useEffect abaixo decide em qual Array o item será gravado
+    useEffect(() => {
+        if (normalizar) {
+            let temp = manobras
+            temp.seqNormalizar = seqManobra.slice()
+            setManobras(temp)
+        } else {
+            let temp = manobras
+            temp.seqIsolar = seqManobra.slice()
+            setManobras(temp)
+        }
+        console.log(normalizar)
+        console.log(manobras)
+    }, [seqManobra]);
+
+    //Ao clicar no botão normalizar muda-se da sequência atual para a sequência gravada
+    useEffect(() => {
+        if (normalizar) {
+            setSeqMan(manobras.seqNormalizar)
+        } else {
+            setSeqMan(manobras.seqIsolar)
+        }
+
+
+    }, [normalizar]);
 
     //Evita que o componente seja renderizado antes que a configuração da SE seja carregada
     if (isLoading) {
@@ -465,12 +496,12 @@ const Elabora = (props) => {
                     color: 'black'
 
                 }}>
-                    <h2>Sequência de Manobras</h2>
+                    <h2>Sequência de Manobras - {normalizar ? 'Normalizar' : "Isolar"}</h2>
                     <MostraSM data={seqManobra} mudaItem={(i, text) => { mudaItem(i, text) }} addLinha={i => addLinha(i)} removeLinha={i => removeLinha(i)} />
                 </div>
                 <div>
-                    <button>Elaborar Manobra de Normalização</button>
-                    <ExportCSV csvData={seqManobra} fileName={fileName} />
+                    <button onClick={() => { setNormalizar(!normalizar) }}>Elaborar Manobra para {normalizar ? 'Isolar' : "Normalizar"}</button>
+                    <ExportCSV csvData={manobras} fileName={fileName} />
                 </div>
 
             </div>

@@ -372,6 +372,9 @@ const Elabora = (props) => {
     const [conf, setConf] = useState()
     const [isLoading, setLoading] = useState(true)
 
+
+
+
     //Carrega o banco de dados com as configurações das subestações
     useEffect(() => {
         const dbRef = ref(getDatabase());
@@ -387,6 +390,7 @@ const Elabora = (props) => {
             console.error(error);
         });
     }, [])
+
 
 
     const [stepNumber, setStepNumber] = useState(0)
@@ -456,6 +460,7 @@ const Elabora = (props) => {
     }
 
 
+    console.log(conf.mapa.disjuntores);
     return (
         <div>
             <div className="image-container">

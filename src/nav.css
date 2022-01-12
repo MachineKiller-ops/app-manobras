@@ -1,9 +1,24 @@
+@import url('//fonts.googleapis.com/css?family=Viga');
+@import url('//fonts.googleapis.com/css?family=Hammersmith+One');
+@import url('//fonts.googleapis.com/css?family=Alata');
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
   background: rgb(69, 172, 91);
+  font-family: 'Alata';
+}
+
+*{
+  font-family: 'Alata';
+
+
+}
+
+h1 {
+  letter-spacing: 5px;
 
 }
 

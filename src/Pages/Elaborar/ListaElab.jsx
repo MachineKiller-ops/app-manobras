@@ -28,8 +28,6 @@ function ListaElab() {
 
     const textStyle = {
         display: "inline-block",
-        alignItems: "center",
-        justifyContent: "center",
         color: "white",
         textDecoration: "none",
         border: "none",
@@ -44,16 +42,19 @@ function ListaElab() {
     }
 
     return (
+        <div style={{ display: 'grid', gridTemplateColumns: 'auto auto auto auto' }}
+        >
 
-        items.map(item => {
-            return (
-                <h3 key={item.id} >
-                    <Link style={textStyle} to={`/elabora/${item.id}`}>{item.nome}</Link>
-                </h3>
+            {items.map(item => {
+                return (
+                    <h3 key={item.id} >
+                        <Link style={textStyle} to={`/elabora/${item.id}`}>{item.nome}</Link>
+                    </h3>
 
-            );
+                );
 
-        })
+            })}
+        </div>
     );
 }
 

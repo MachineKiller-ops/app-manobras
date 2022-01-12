@@ -7,7 +7,13 @@ h3 {
   text-align: center;
   color: white;
   font-weight: lighter;
-  display: grid;
+  /* display: inline-grid; */
+  margin: 100px;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+
 }
 
 .image-container {

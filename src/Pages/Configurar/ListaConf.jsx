@@ -28,8 +28,6 @@ function ListaConf() {
 
     const textStyle = {
         display: "inline-block",
-        alignItems: "center",
-        justifyContent: "center",
         color: "white",
         textDecoration: "none",
         border: "none",
@@ -45,15 +43,19 @@ function ListaConf() {
 
     return (
 
-        items.map(item => {
-            return (
-                <h3 key={item.id} >
-                    <Link style={textStyle} to={`/configurase/${item.id}`}>{item.nome}</Link>
-                </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'auto auto auto auto' }}
+        >
 
-            );
+            {items.map(item => {
+                return (
+                    <h3 key={item.id} >
+                        <Link style={textStyle} to={`/configurase/${item.id}`}>{item.nome}</Link>
+                    </h3>
 
-        })
+                );
+
+            })}
+        </div>
     );
 }
 

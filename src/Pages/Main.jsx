@@ -37,17 +37,32 @@ const Main = () => {
     return (
         <div
             style={{
-                height: '100vh',
-                width: '100%',
+                height: '90vh',
+                width: 'auto',
                 background: 'lightgreen',
                 justifyContent: 'center',
                 alignItems: 'center',
                 display: 'flex',
-                flexDirection: 'column'
+                flexDirection: 'column',
+                color: '#006400',
+                fontSize: '1.5rem'
 
             }}
         >
-            <img src={se_imagem} alt="Subestação" />
+            <img
+                style={{
+                    height: '40vh',
+                    /*width: '100%', */
+                    background: 'lightgreen',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    color: '#006400'
+
+                }}
+
+                src={se_imagem} alt="Subestação" />
 
             <p>Aplicação para Elaboração de Manobras</p>
             {/* <div style={{

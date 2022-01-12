@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { db } from "../utils/firebase-config"
 import { getDatabase, ref, child, get } from "firebase/database";
 import axios from 'axios';
+import se_imagem from './subestacao.jpg'
 
 const Main = () => {
 
@@ -41,10 +42,15 @@ const Main = () => {
                 background: 'lightgreen',
                 justifyContent: 'center',
                 alignItems: 'center',
+                display: 'flex',
+                flexDirection: 'column'
 
             }}
         >
-            <div style={{
+            <img src={se_imagem} alt="Subestação" />
+
+            <p>Aplicação para Elaboração de Manobras</p>
+            {/* <div style={{
                 padding: '5em'
             }}>
                 <h3 style={{
@@ -56,15 +62,16 @@ const Main = () => {
                 }} >"Loading..."</h3>
 
             </div>
+
             <button style={{
                 padding: '2em',
                 position: 'absolute',
                 top: '50%',
                 left: '50%',
                 transform: 'translate(-50%, -50%)'
-            }} onClick={handleClick} >Click me!</button>
+            }} onClick={handleClick} >Click me!</button> */}
 
-        </div>
+        </div >
     );
 }
 

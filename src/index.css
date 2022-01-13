@@ -8,9 +8,9 @@ h3 {
   color: white;
   font-weight: lighter;
   /* display: inline-grid; */
-  margin: 100px;
-  grid-auto-flow: column;
-  gap: 4px;
+  margin: 10px;
+  /* grid-auto-flow: column;
+  gap: 4px; */
   align-items: center;
   justify-items: center;
 

@@ -43,7 +43,7 @@ function ListaConf() {
 
     return (
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'auto auto auto auto' }}
+        <div style={{ display: 'grid', gridTemplateColumns: 'auto auto auto auto', margin: '100px' }}
         >
 
             {items.map(item => {

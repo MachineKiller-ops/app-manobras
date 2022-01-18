@@ -464,10 +464,14 @@ const Elabora = (props) => {
     console.log(conf.mapa.disjuntores);
     return (
         <div>
-            <div className="image-container">
-                <div className="image-inner-container">
-                    <img src={process.env.PUBLIC_URL
-                        + "/img/" + conf.id + ".png"} alt="" />
+            <div className="outter-container">
+                <div
+                    className="inner-container"
+                    style={{
+                        backgroundImage: `url("${process.env.PUBLIC_URL}/img/${conf.id}.png")`
+                    }}
+
+                >
                     <DiagramaDisj
                         v={JSON.stringify(conf.mapa.disjuntores)} //Necessário conversão para JSON pois objetos não podem ser passados em props
                         onClick={i => { handleClickDisj(i) }}

@@ -29,16 +29,13 @@ h3 {
 .inner-container {
   position: absolute;
   margin: 20px;
-  /* background: url('./betq.png') ; */
   background-size: contain;
   background-repeat: no-repeat;
   width: 1128px;
   height: 666px;
-  /* padding-top: 50%; /* (img-height / img-width * container-width) */
-                /* (853 / 1280 * 100) */
-  /* width: 1000px;
-  height: 1000px; */ 
 }
+
+
 .disjuntor {
   width: 25px;
   height: 25px;

@@ -16,20 +16,25 @@ h3 {
 
 }
 
-.image-container {
+.outter-container {
   position: relative;
   background-color: beige;
-
   width: auto;
-  height: 1000px;
+  height: 1000px; 
   display: flex;
   justify-content: center;
+
 }
 
-.image-inner-container {
+.inner-container {
   position: absolute;
   margin: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1128px;
+  height: 666px;
 }
+
 .disjuntor {
   width: 25px;
   height: 25px;

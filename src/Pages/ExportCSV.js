@@ -8,8 +8,8 @@ export const ExportCSV = ({csvData, fileName}) => {
         const json = JSON.stringify(csvData);
         console.log(csvData)
 
-        axios.post('https://python-server-app-manobras.herokuapp.com/', json, {
-        //axios.post('http://127.0.0.1:5006/', json, {
+        //axios.post('https://python-server-app-manobras.herokuapp.com/', json, {
+        axios.post('http://127.0.0.1:5006/', json, {
             headers: {
                 'Content-Type': 'application/json'
             },

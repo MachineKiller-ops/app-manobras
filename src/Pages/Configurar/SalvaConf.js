@@ -14,7 +14,7 @@ export const SalvaConf = ({conf, id}) => {
                 console.log(id)
                 const updates = {};
                 updates[`/${indice}`] = conf;
-
+                alert('Configuração salva com sucesso!')
                 return update(ref(db), updates);
             } else {
                 console.log("No data available");

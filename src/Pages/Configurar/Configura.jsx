@@ -54,7 +54,7 @@ function Disjuntor(props) {
 
                             <div
                                 style={{
-                                    color: infoDis.sc ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    color: infoDis.sc ? 'red' : 'green',// a cor é definida pelo estado do disjuntor
                                     width: '3em',
                                     backgroundColor: 'white'
                                 }}
@@ -65,7 +65,7 @@ function Disjuntor(props) {
 
                             <div
                                 style={{
-                                    color: infoDis.ra ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    color: infoDis.ra ? 'red' : 'green',// a cor é definida pelo estado do disjuntor
                                     width: '3em',
                                     border: 'none'
                                 }}
@@ -76,7 +76,7 @@ function Disjuntor(props) {
                         {infoDis.rn !== undefined &&
                             <div
                                 style={{
-                                    color: infoDis.rn ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    color: infoDis.rn ? 'red' : 'green',// a cor é definida pelo estado do disjuntor
                                     width: '3em',
                                     border: 'none'
                                 }}
@@ -87,7 +87,7 @@ function Disjuntor(props) {
                         {infoDis.c69bc !== undefined &&
                             <div
                                 style={{
-                                    color: infoDis.c69bc ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    color: infoDis.c69bc ? 'red' : 'green',// a cor é definida pelo estado do disjuntor
                                     width: '3em',
                                     border: 'none'
                                 }}
@@ -98,7 +98,7 @@ function Disjuntor(props) {
                         {infoDis.c43t !== undefined &&
                             <div
                                 style={{
-                                    color: infoDis.c43t ? 'green' : 'red',// a cor é definida pelo estado do disjuntor
+                                    color: infoDis.c43t ? 'red' : 'green',// a cor é definida pelo estado do disjuntor
                                     width: '3em',
                                     border: 'none'
                                 }}
@@ -258,10 +258,6 @@ const Elabora = (props) => {
 
     }
     const toggleRa = (i) => {
-        if (conf.mapa.disjuntores[i].sc) {
-            //alert('O equipamento não pode ser operado, pois está em REMOTO.')
-            return
-        }
 
         let itemMan = ''
 
@@ -276,10 +272,6 @@ const Elabora = (props) => {
 
     }
     const toggleRn = (i) => {
-        if (conf.mapa.disjuntores[i].sc) {
-            //alert('O equipamento não pode ser operado, pois está em REMOTO.')
-            return
-        }
 
         let itemMan = ''
         let confTemp = conf; // copia conf

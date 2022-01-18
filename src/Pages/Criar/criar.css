@@ -1,0 +1,154 @@
+h1 {
+  color: aliceblue;
+}
+
+h3 {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  /* display: inline-grid; */
+  margin: 10px;
+  /* grid-auto-flow: column;
+  gap: 4px; */
+  align-items: center;
+  justify-items: center;
+
+}
+
+.outter-container {
+  position: relative;
+  background-color: beige;
+  width: auto;
+  height: 1000px; 
+  display: flex;
+  justify-content: center;
+
+}
+
+.inner-container {
+  position: absolute;
+  margin: 20px;
+  /* background: url('./betq.png') ; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1128px;
+  height: 666px;
+  /* padding-top: 50%; /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+  /* width: 1000px;
+  height: 1000px; */ 
+}
+.disjuntor {
+  width: 25px;
+  height: 25px;
+  background: blue;
+  position: absolute;
+  margin: 0;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.disjuntor:hover{
+  border-color: rgba(255, 255, 255, 1);
+}
+
+
+
+.opcoes{
+  opacity: 0;
+  z-index: -1;
+  width: 3em;
+  text-align: center;
+}
+
+.disjuntor:hover + .opcoes{
+  opacity: 1;
+  z-index: 10;
+}
+
+
+.seccionadora {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin: 0;
+  content: url('../chave_fechada.png') ;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.seccionadora:hover{
+  border-color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav.react-contextmenu {
+    position: fixed;
+    width: 200px;
+    left: 0;
+    top: calc(100% + 10px);
+    border-radius: 4px;
+    background-color: #fff;
+    color: black;
+    padding: 10px 0;
+    z-index: 99;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    flex-direction: column;
+  }
+  .react-contextmenu .react-contextmenu-item:hover{
+  background: #cccccc;
+  }
+  
+  .react-contextmenu-item:hover:not(.react-contextmenu-item--disabled) {
+  background-color: #f1f1f1;
+  }
+  
+  .react-contextmenu .react-contextmenu-item{
+  font-size: 14px;
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  user-select: none;
+  transition: .2s;
+  position: relative;
+  margin-bottom: 2px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  outline: none;
+  }
+
+  .react-contextmenu-item span{
+    margin-left: 10px;
+  }
+  .react-contextmenu-item svg{
+    font-size: 14px;
+  }
+  .react-contextmenu-item .copy{
+    color:skyblue
+  }
+  .react-contextmenu-item .delete{
+    color:red
+  }
+  .react-contextmenu-item .send{
+    color: blue
+  }
+  .react-contextmenu-item .share{
+    color: green
+  }
+  .react-contextmenu-item .watchlist{
+    color: rebeccapurple
+  }
+
+  

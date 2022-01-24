@@ -34,6 +34,9 @@ function Disjuntor(props) {
                             position: 'absolute',
                             left: `${infoDis.pos[0]}px`, // cria figura do disjuntor na posição passada pela props
                             top: `${infoDis.pos[1]}px`,
+                            width: `${props.escala * 20}px`,
+                            height: `${props.escala * 20}px`,
+                            transform: `scale(${props.escala})`,
                             backgroundColor: infoDis.estado ? 'red' : 'green'// a cor é definida pelo estado do disjuntor
                         }}
                         onClick={() => props.onClick()}
@@ -152,6 +155,7 @@ const DiagramaDisj = (props) => {
             disInfo={disInfo}
             index={index}
             onClick={() => props.onClick(index)}
+            escala={props.escala}
             setRa={() => props.setRa(index)}
             setRn={() => props.setRn(index)}
             setSc={() => props.setSc(index)}
@@ -181,7 +185,7 @@ function Seccionadora(props) {
         position: 'absolute',
         left: `${props.x}px`, // cria figura do disjuntor na posição passada pela props
         top: `${props.y}px`,
-        transform: props.horiz ? "rotate(90deg)" : "rotate(0deg)",
+        transform: props.horiz ? `rotate(90deg) scale(${props.escala})` : `rotate(0deg) scale(${props.escala})`,
         content: props.estado ? `url(${chaveFechada})` : `url(${chaveAberta})` // a cor é definida pelo estado do disjuntor
     }
     return (
@@ -206,6 +210,7 @@ const DiagramaSecc = (props) => {
             x={x} // envia coordenadas x e y para renderizar disjuntor
             y={y}
             estado={estado}
+            escala={props.escala}
             index={index}
             horiz={horiz}
             onClick={() => props.onClick(index)}
@@ -234,7 +239,7 @@ const Elabora = (props) => {
     let { id } = useParams();
 
     const handleClickDisj = (i) => {
-
+        console.log(conf.escala)
         if (conf.mapa.disjuntores[i].sc) {
             //alert('O equipamento não pode ser operado, pois está em REMOTO.')
             return
@@ -475,6 +480,7 @@ const Elabora = (props) => {
                     <DiagramaDisj
                         v={JSON.stringify(conf.mapa.disjuntores)} //Necessário conversão para JSON pois objetos não podem ser passados em props
                         onClick={i => { handleClickDisj(i) }}
+                        escala={conf.escala}
                         setRa={i => { toggleRa(i) }}
                         setRn={i => { toggleRn(i) }}
                         setSc={i => { toggleSc(i) }}
@@ -483,6 +489,7 @@ const Elabora = (props) => {
                     />
                     <DiagramaSecc
                         v={JSON.stringify(conf.mapa.seccionadoras)} //Necessário conversão para JSON pois objetos não podem ser passados em props
+                        escala={conf.escala}
                         onClick={i => { handleClickSecc(i) }}
                     />
 

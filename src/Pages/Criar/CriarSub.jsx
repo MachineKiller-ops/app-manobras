@@ -12,9 +12,13 @@ import {
 } from "react-router-dom";
 import Draggable from "react-draggable";
 import { SalvaConf } from './SalvaConf';
+import { AddDis } from './AddDis';
+import { AddSec } from './AddSec';
 
-import chaveAberta from '../chave_aberta.png'; // Tell Webpack this JS file uses this image
-import chaveFechada from '../chave_fechada.png'; // Tell Webpack this JS file uses this image
+import chaveAberta from './chave_aberta.png'; // Tell Webpack this JS file uses this image
+import chaveFechada from './chave_fechada.png'; // Tell Webpack this JS file uses this image
+import chaveAberta1 from './chave_aberta1.png'; // Tell Webpack this JS file uses this image
+import chaveFechada1 from './chave_fechada1.png'; // Tell Webpack this JS file uses this image
 
 import { db } from "../../utils/firebase-config"
 import { getDatabase, ref, child, get } from "firebase/database";
@@ -187,6 +191,14 @@ class Seccionadora extends Component {
 
 
     render = () => {
+        let cf, ca
+        if (this.props.horiz) {
+            cf = chaveFechada1
+            ca = chaveAberta1
+        } else {
+            cf = chaveFechada
+            ca = chaveAberta
+        }
 
         //let infoDis = JSON.parse(this.props.disInfo)
         const dragHandlers = { onStart: this.onStart, onStop: this.onStop };
@@ -194,8 +206,8 @@ class Seccionadora extends Component {
 
         const estiloChave = {
             position: 'absolute',
-            transform: this.props.horiz ? `rotate(90deg) scale(${this.props.escala})` : `rotate(0deg) scale(${this.props.escala})`,
-            content: this.props.estado ? `url(${chaveFechada})` : `url(${chaveAberta})` // a cor é definida pelo estado do disjuntor
+            //transform: `scale(${this.props.escala})`,
+            content: this.props.estado ? `url(${cf})` : `url(${ca})` // a cor é definida pelo estado do disjuntor
         }
         return (
             <div>
@@ -204,6 +216,7 @@ class Seccionadora extends Component {
                     <Draggable
                         //position={controlledPosition} 
                         defaultPosition={{ x: this.props.x, y: this.props.y }}
+                        scale={this.props.escala}
                         {...dragHandlers} onDrag={this.onControlledDrag}>
                         <div>
 
@@ -373,6 +386,7 @@ const CriarSub = (props) => {
                     }}>
                         <SalvaConf conf={conf} id={id} />
 
+
                     </div>
                     <div
                         style={{
@@ -383,7 +397,8 @@ const CriarSub = (props) => {
                             marginTop: '-600px',
                             flexDirection: 'column'
                         }}>
-                        <button style={{ margin: '20px', width: '100px' }} >Cria Disjuntor (desabilitado)</button>
+                        <AddDis conf={conf} id={id} />
+                        <AddSec conf={conf} id={id} />
                         <button style={{ margin: '20px', width: '100px' }} >Apaga Disjuntor (desabilitado)</button>
                         <button style={{ margin: '20px', width: '100px' }} onClick={() => aumentaEscala()}>Aumenta Escala</button>
                         <button style={{ margin: '20px', width: '100px' }} onClick={() => diminuiEscala()}>Diminui Escala</button>

@@ -86,6 +86,7 @@ class Disjuntor extends Component {
                             }}
                         //onClick={() => this.state.onClick()}
                         >
+                            {this.props.index}
                             {/*  <div>
                                 <a href="#" onClick={this.adjustXPos}>Adjust x ({controlledPosition.x})</a>
                             </div>
@@ -224,6 +225,9 @@ class Seccionadora extends Component {
                                 className="seccionadora"
                                 style={estiloChave}
                             >
+
+                            </div>
+                            <div style={{ color: 'red', position: 'absolute', textShadow: '2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff', justifyContent: 'center' }}>
                                 {this.props.index}
                             </div>
                         </div>

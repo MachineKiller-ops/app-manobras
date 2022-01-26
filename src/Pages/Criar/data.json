@@ -4,247 +4,11 @@
     "mapa": {
       "disjuntores": [
         {
-          "estado": true,
-          "pos": [
-            424,
-            163
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            753,
-            163
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            468,
-            275
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            846,
-            275
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": false,
-          "pos": [
-            53,
-            399
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": false,
-          "pos": [
-            216,
-            399
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            469,
-            395
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            846,
-            395
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            1012,
-            399
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            90,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            175,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            261,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            344,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            484,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            571,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            694,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            781,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            863,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            951,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        },
-        {
-          "estado": true,
-          "pos": [
-            1071,
-            504
-          ],
-          "ra": false,
-          "rn": false,
-          "sc": true
-        }
-      ]
-    },
-    "nome": "Atalaia"
-  },
-  {
-    "id": "betd",
-    "mapa": [
-      [
-        424,
-        163
-      ],
-      [
-        1071,
-        504
-      ]
-    ],
-    "nome": "Betim 2"
-  },
-  {
-    "id": "bett",
-    "mapa": [
-      [
-        424,
-        163
-      ],
-      [
-        1071,
-        504
-      ]
-    ],
-    "nome": "Betim 3"
-  },
-  {
-    "id": "betq",
-    "mapa": {
-      "disjuntores": [
-        {
           "estado": 0,
           "nome": "2K",
           "pos": [
-            424,
-            163
+            427,
+            165
           ],
           "ra": true,
           "sc": true
@@ -256,17 +20,17 @@
             753,
             163
           ],
-          "ra": false,
+          "ra": true,
           "sc": true
         },
         {
           "estado": true,
           "nome": "9K",
           "pos": [
-            468,
+            471,
             275
           ],
-          "sc": true
+          "sc": false
         },
         {
           "estado": true,
@@ -281,8 +45,8 @@
           "estado": false,
           "nome": "403F",
           "pos": [
-            53,
-            399
+            56,
+            402
           ],
           "sc": true
         },
@@ -290,8 +54,8 @@
           "estado": false,
           "nome": "406F",
           "pos": [
-            216,
-            399
+            220,
+            401
           ],
           "sc": true
         },
@@ -301,8 +65,8 @@
           "estado": true,
           "nome": "409F",
           "pos": [
-            469,
-            395
+            472,
+            396
           ],
           "sc": true
         },
@@ -333,8 +97,8 @@
             90,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
@@ -344,8 +108,8 @@
             175,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
@@ -355,8 +119,8 @@
             261,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
@@ -366,8 +130,8 @@
             344,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
@@ -377,19 +141,19 @@
             484,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
-          "estado": true,
+          "estado": 0,
           "nome": "412F",
           "pos": [
             571,
             504
           ],
           "ra": false,
-          "rn": false,
+          "rn": true,
           "sc": true
         },
         {
@@ -399,8 +163,8 @@
             694,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
@@ -410,8 +174,8 @@
             781,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
@@ -421,8 +185,8 @@
             863,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
@@ -432,8 +196,8 @@
             951,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         },
         {
@@ -443,14 +207,14 @@
             1071,
             504
           ],
-          "ra": false,
-          "rn": false,
+          "ra": true,
+          "rn": true,
           "sc": true
         }
       ],
       "seccionadoras": [
         {
-          "estado": 0,
+          "estado": 1,
           "horizontal": false,
           "nome": "2K5",
           "pos": [
@@ -468,7 +232,7 @@
           ]
         },
         {
-          "estado": 0,
+          "estado": 1,
           "horizontal": false,
           "nome": "2K3",
           "pos": [
@@ -491,7 +255,7 @@
           "nome": "3K5",
           "pos": [
             752,
-            135
+            134
           ]
         },
         {
@@ -526,7 +290,7 @@
           "horizontal": false,
           "nome": "10KT2",
           "pos": [
-            845,
+            844,
             235
           ]
         },
@@ -589,8 +353,8 @@
           "horizontal": false,
           "nome": "414F5",
           "pos": [
-            845,
-            363
+            843,
+            365
           ]
         },
         {
@@ -598,8 +362,8 @@
           "horizontal": false,
           "nome": "414F3",
           "pos": [
-            845,
-            424
+            843,
+            426
           ]
         },
         {
@@ -769,7 +533,7 @@
           "horizontal": false,
           "nome": "412F5",
           "pos": [
-            569,
+            568,
             530
           ]
         },
@@ -778,7 +542,7 @@
           "horizontal": false,
           "nome": "413F3",
           "pos": [
-            693,
+            692,
             474
           ]
         },
@@ -787,7 +551,7 @@
           "horizontal": false,
           "nome": "413F5",
           "pos": [
-            693,
+            692,
             530
           ]
         },
@@ -796,7 +560,7 @@
           "horizontal": false,
           "nome": "413F6",
           "pos": [
-            727,
+            725,
             576
           ]
         },
@@ -805,7 +569,7 @@
           "horizontal": false,
           "nome": "415F3",
           "pos": [
-            779,
+            778,
             474
           ]
         },
@@ -814,8 +578,8 @@
           "horizontal": false,
           "nome": "415F5",
           "pos": [
-            779,
-            530
+            778,
+            531
           ]
         },
         {
@@ -832,7 +596,7 @@
           "horizontal": false,
           "nome": "416F3",
           "pos": [
-            865,
+            864,
             474
           ]
         },
@@ -841,8 +605,8 @@
           "horizontal": false,
           "nome": "416F5",
           "pos": [
-            865,
-            530
+            864,
+            529
           ]
         },
         {
@@ -850,7 +614,7 @@
           "horizontal": false,
           "nome": "416F6",
           "pos": [
-            899,
+            897,
             576
           ]
         },
@@ -859,7 +623,7 @@
           "horizontal": false,
           "nome": "417F3",
           "pos": [
-            951,
+            949,
             474
           ]
         },
@@ -868,8 +632,8 @@
           "horizontal": false,
           "nome": "417F5",
           "pos": [
-            951,
-            530
+            949,
+            531
           ]
         },
         {
@@ -877,7 +641,7 @@
           "horizontal": false,
           "nome": "417F6",
           "pos": [
-            985,
+            983,
             576
           ]
         },
@@ -886,8 +650,8 @@
           "horizontal": false,
           "nome": "418F3",
           "pos": [
-            1010,
-            426
+            1008,
+            425
           ]
         },
         {
@@ -895,8 +659,8 @@
           "horizontal": false,
           "nome": "419F3",
           "pos": [
-            1069,
-            474
+            1067,
+            475
           ]
         },
         {
@@ -904,7 +668,2120 @@
           "horizontal": false,
           "nome": "419F5",
           "pos": [
-            1069,
+            1067,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "419F6",
+          "pos": [
+            1103,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "401F0",
+          "pos": [
+            550,
+            448
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "402F0",
+          "pos": [
+            650,
+            448
+          ]
+        }
+      ]
+    },
+    "nome": "Atalaia"
+  },
+  {
+    "id": "betd",
+    "mapa": {
+      "disjuntores": [
+        {
+          "estado": 0,
+          "nome": "2K",
+          "pos": [
+            427,
+            165
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "3K",
+          "pos": [
+            753,
+            163
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "9K",
+          "pos": [
+            471,
+            275
+          ],
+          "sc": false
+        },
+        {
+          "estado": true,
+          "nome": "10K",
+          "pos": [
+            846,
+            275
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "403F",
+          "pos": [
+            56,
+            402
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "406F",
+          "pos": [
+            220,
+            401
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "409F",
+          "pos": [
+            472,
+            396
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "414F",
+          "pos": [
+            846,
+            395
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "418F",
+          "pos": [
+            1012,
+            399
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "404F",
+          "pos": [
+            90,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "405F",
+          "pos": [
+            175,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "407F",
+          "pos": [
+            261,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "408F",
+          "pos": [
+            344,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "410F",
+          "pos": [
+            484,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": 0,
+          "nome": "412F",
+          "pos": [
+            571,
+            504
+          ],
+          "ra": false,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "413F",
+          "pos": [
+            694,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "415F",
+          "pos": [
+            781,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "416F",
+          "pos": [
+            863,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "417F",
+          "pos": [
+            951,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "419F",
+          "pos": [
+            1071,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        }
+      ],
+      "seccionadoras": [
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K5",
+          "pos": [
+            423,
+            135
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K5T",
+          "pos": [
+            389,
+            115
+          ]
+        },
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K3",
+          "pos": [
+            423,
+            190
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "3K5T",
+          "pos": [
+            787,
+            115
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K5",
+          "pos": [
+            752,
+            134
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K3",
+          "pos": [
+            752,
+            190
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "9kt1",
+          "pos": [
+            467,
+            235
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K6",
+          "pos": [
+            596,
+            105
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "10KT2",
+          "pos": [
+            844,
+            235
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "403F3",
+          "pos": [
+            52,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "406F3",
+          "pos": [
+            215,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F9",
+          "pos": [
+            592,
+            426
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F5",
+          "pos": [
+            467,
+            363
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F3",
+          "pos": [
+            467,
+            424
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "409F6",
+          "pos": [
+            522,
+            392
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F5",
+          "pos": [
+            843,
+            365
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F3",
+          "pos": [
+            843,
+            426
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "414F6",
+          "pos": [
+            899,
+            394
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F3",
+          "pos": [
+            88,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F5",
+          "pos": [
+            88,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "404F6",
+          "pos": [
+            122,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F3",
+          "pos": [
+            174,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F5",
+          "pos": [
+            174,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "405F6",
+          "pos": [
+            207,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F3",
+          "pos": [
+            260,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F5",
+          "pos": [
+            260,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "407F6",
+          "pos": [
+            293,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F3",
+          "pos": [
+            343,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F5",
+          "pos": [
+            343,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "408F6",
+          "pos": [
+            376,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F9",
+          "pos": [
+            376,
+            608
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F3",
+          "pos": [
+            483,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F5",
+          "pos": [
+            483,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "410F6",
+          "pos": [
+            517,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F3",
+          "pos": [
+            569,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F5",
+          "pos": [
+            568,
+            530
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F3",
+          "pos": [
+            692,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F5",
+          "pos": [
+            692,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "413F6",
+          "pos": [
+            725,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F3",
+          "pos": [
+            778,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F5",
+          "pos": [
+            778,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "415F6",
+          "pos": [
+            813,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F3",
+          "pos": [
+            864,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F5",
+          "pos": [
+            864,
+            529
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "416F6",
+          "pos": [
+            897,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F3",
+          "pos": [
+            949,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F5",
+          "pos": [
+            949,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "417F6",
+          "pos": [
+            983,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "418F3",
+          "pos": [
+            1008,
+            425
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F3",
+          "pos": [
+            1067,
+            475
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F5",
+          "pos": [
+            1067,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "419F6",
+          "pos": [
+            1103,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "401F0",
+          "pos": [
+            550,
+            448
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "402F0",
+          "pos": [
+            650,
+            448
+          ]
+        }
+      ]
+    },
+    "nome": "Betim 2"
+  },
+  {
+    "id": "bett",
+    "mapa": {
+      "disjuntores": [
+        {
+          "estado": 0,
+          "nome": "2K",
+          "pos": [
+            427,
+            165
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "3K",
+          "pos": [
+            753,
+            163
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "9K",
+          "pos": [
+            471,
+            275
+          ],
+          "sc": false
+        },
+        {
+          "estado": true,
+          "nome": "10K",
+          "pos": [
+            846,
+            275
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "403F",
+          "pos": [
+            56,
+            402
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "406F",
+          "pos": [
+            220,
+            401
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "409F",
+          "pos": [
+            472,
+            396
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "414F",
+          "pos": [
+            846,
+            395
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "418F",
+          "pos": [
+            1012,
+            399
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "404F",
+          "pos": [
+            90,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "405F",
+          "pos": [
+            175,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "407F",
+          "pos": [
+            261,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "408F",
+          "pos": [
+            344,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "410F",
+          "pos": [
+            484,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": 0,
+          "nome": "412F",
+          "pos": [
+            571,
+            504
+          ],
+          "ra": false,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "413F",
+          "pos": [
+            694,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "415F",
+          "pos": [
+            781,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "416F",
+          "pos": [
+            863,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "417F",
+          "pos": [
+            951,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "419F",
+          "pos": [
+            1071,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        }
+      ],
+      "seccionadoras": [
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K5",
+          "pos": [
+            423,
+            135
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K5T",
+          "pos": [
+            389,
+            115
+          ]
+        },
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K3",
+          "pos": [
+            423,
+            190
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "3K5T",
+          "pos": [
+            787,
+            115
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K5",
+          "pos": [
+            752,
+            134
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K3",
+          "pos": [
+            752,
+            190
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "9kt1",
+          "pos": [
+            467,
+            235
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K6",
+          "pos": [
+            596,
+            105
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "10KT2",
+          "pos": [
+            844,
+            235
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "403F3",
+          "pos": [
+            52,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "406F3",
+          "pos": [
+            215,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F9",
+          "pos": [
+            592,
+            426
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F5",
+          "pos": [
+            467,
+            363
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F3",
+          "pos": [
+            467,
+            424
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "409F6",
+          "pos": [
+            522,
+            392
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F5",
+          "pos": [
+            843,
+            365
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F3",
+          "pos": [
+            843,
+            426
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "414F6",
+          "pos": [
+            899,
+            394
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F3",
+          "pos": [
+            88,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F5",
+          "pos": [
+            88,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "404F6",
+          "pos": [
+            122,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F3",
+          "pos": [
+            174,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F5",
+          "pos": [
+            174,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "405F6",
+          "pos": [
+            207,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F3",
+          "pos": [
+            260,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F5",
+          "pos": [
+            260,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "407F6",
+          "pos": [
+            293,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F3",
+          "pos": [
+            343,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F5",
+          "pos": [
+            343,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "408F6",
+          "pos": [
+            376,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F9",
+          "pos": [
+            376,
+            608
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F3",
+          "pos": [
+            483,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F5",
+          "pos": [
+            483,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "410F6",
+          "pos": [
+            517,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F3",
+          "pos": [
+            569,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F5",
+          "pos": [
+            568,
+            530
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F3",
+          "pos": [
+            692,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F5",
+          "pos": [
+            692,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "413F6",
+          "pos": [
+            725,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F3",
+          "pos": [
+            778,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F5",
+          "pos": [
+            778,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "415F6",
+          "pos": [
+            813,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F3",
+          "pos": [
+            864,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F5",
+          "pos": [
+            864,
+            529
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "416F6",
+          "pos": [
+            897,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F3",
+          "pos": [
+            949,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F5",
+          "pos": [
+            949,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "417F6",
+          "pos": [
+            983,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "418F3",
+          "pos": [
+            1008,
+            425
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F3",
+          "pos": [
+            1067,
+            475
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F5",
+          "pos": [
+            1067,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "419F6",
+          "pos": [
+            1103,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "401F0",
+          "pos": [
+            550,
+            448
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "402F0",
+          "pos": [
+            650,
+            448
+          ]
+        }
+      ]
+    },
+    "nome": "Betim 3"
+  },
+  {
+    "escala": 1,
+    "id": "betq",
+    "mapa": {
+      "disjuntores": [
+        {
+          "estado": 0,
+          "nome": "2K",
+          "pos": [
+            427,
+            165
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "3K",
+          "pos": [
+            753,
+            163
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "9K",
+          "pos": [
+            471,
+            275
+          ],
+          "sc": false
+        },
+        {
+          "estado": true,
+          "nome": "10K",
+          "pos": [
+            846,
+            275
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "403F",
+          "pos": [
+            56,
+            402
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "406F",
+          "pos": [
+            220,
+            401
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "409F",
+          "pos": [
+            472,
+            396
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "414F",
+          "pos": [
+            846,
+            395
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "418F",
+          "pos": [
+            1012,
+            399
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "404F",
+          "pos": [
+            90,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "405F",
+          "pos": [
+            175,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "407F",
+          "pos": [
+            261,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "408F",
+          "pos": [
+            344,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "410F",
+          "pos": [
+            484,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": 0,
+          "nome": "412F",
+          "pos": [
+            571,
+            504
+          ],
+          "ra": false,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "413F",
+          "pos": [
+            694,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "415F",
+          "pos": [
+            781,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "416F",
+          "pos": [
+            863,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "417F",
+          "pos": [
+            951,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "419F",
+          "pos": [
+            1071,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        }
+      ],
+      "seccionadoras": [
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K5",
+          "pos": [
+            423,
+            135
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K5T",
+          "pos": [
+            389,
+            115
+          ]
+        },
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K3",
+          "pos": [
+            423,
+            190
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "3K5T",
+          "pos": [
+            787,
+            115
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K5",
+          "pos": [
+            752,
+            134
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K3",
+          "pos": [
+            752,
+            190
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "9kt1",
+          "pos": [
+            467,
+            235
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K6",
+          "pos": [
+            596,
+            105
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "10KT2",
+          "pos": [
+            844,
+            235
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "403F3",
+          "pos": [
+            52,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "406F3",
+          "pos": [
+            215,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F9",
+          "pos": [
+            592,
+            426
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F5",
+          "pos": [
+            467,
+            363
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F3",
+          "pos": [
+            467,
+            424
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "409F6",
+          "pos": [
+            522,
+            392
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F5",
+          "pos": [
+            843,
+            365
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F3",
+          "pos": [
+            843,
+            426
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "414F6",
+          "pos": [
+            899,
+            394
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F3",
+          "pos": [
+            88,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F5",
+          "pos": [
+            88,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "404F6",
+          "pos": [
+            122,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F3",
+          "pos": [
+            174,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F5",
+          "pos": [
+            174,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "405F6",
+          "pos": [
+            207,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F3",
+          "pos": [
+            260,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F5",
+          "pos": [
+            260,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "407F6",
+          "pos": [
+            293,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F3",
+          "pos": [
+            343,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F5",
+          "pos": [
+            343,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "408F6",
+          "pos": [
+            376,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F9",
+          "pos": [
+            376,
+            608
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F3",
+          "pos": [
+            483,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F5",
+          "pos": [
+            483,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "410F6",
+          "pos": [
+            517,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F3",
+          "pos": [
+            569,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F5",
+          "pos": [
+            568,
+            530
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F3",
+          "pos": [
+            692,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F5",
+          "pos": [
+            692,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "413F6",
+          "pos": [
+            725,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F3",
+          "pos": [
+            778,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F5",
+          "pos": [
+            778,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "415F6",
+          "pos": [
+            813,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F3",
+          "pos": [
+            864,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F5",
+          "pos": [
+            864,
+            529
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "416F6",
+          "pos": [
+            897,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F3",
+          "pos": [
+            949,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F5",
+          "pos": [
+            949,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "417F6",
+          "pos": [
+            983,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "418F3",
+          "pos": [
+            1008,
+            425
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F3",
+          "pos": [
+            1067,
+            475
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F5",
+          "pos": [
+            1067,
             530
           ]
         },
@@ -941,19 +2818,710 @@
   },
   {
     "id": "betc",
-    "mapa": [
-      [
-        424,
-        163
+    "mapa": {
+      "disjuntores": [
+        {
+          "estado": 0,
+          "nome": "2K",
+          "pos": [
+            427,
+            165
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "3K",
+          "pos": [
+            753,
+            163
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "9K",
+          "pos": [
+            471,
+            275
+          ],
+          "sc": false
+        },
+        {
+          "estado": true,
+          "nome": "10K",
+          "pos": [
+            846,
+            275
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "403F",
+          "pos": [
+            56,
+            402
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "406F",
+          "pos": [
+            220,
+            401
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "409F",
+          "pos": [
+            472,
+            396
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "414F",
+          "pos": [
+            846,
+            395
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "418F",
+          "pos": [
+            1012,
+            399
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "404F",
+          "pos": [
+            90,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "405F",
+          "pos": [
+            175,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "407F",
+          "pos": [
+            261,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "408F",
+          "pos": [
+            344,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "410F",
+          "pos": [
+            484,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": 0,
+          "nome": "412F",
+          "pos": [
+            571,
+            504
+          ],
+          "ra": false,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "413F",
+          "pos": [
+            694,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "415F",
+          "pos": [
+            781,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "416F",
+          "pos": [
+            863,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "417F",
+          "pos": [
+            951,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "419F",
+          "pos": [
+            1071,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        }
       ],
-      [
-        1071,
-        504
+      "seccionadoras": [
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K5",
+          "pos": [
+            423,
+            135
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K5T",
+          "pos": [
+            389,
+            115
+          ]
+        },
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K3",
+          "pos": [
+            423,
+            190
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "3K5T",
+          "pos": [
+            787,
+            115
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K5",
+          "pos": [
+            752,
+            134
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K3",
+          "pos": [
+            752,
+            190
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "9kt1",
+          "pos": [
+            467,
+            235
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K6",
+          "pos": [
+            596,
+            105
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "10KT2",
+          "pos": [
+            844,
+            235
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "403F3",
+          "pos": [
+            52,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "406F3",
+          "pos": [
+            215,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F9",
+          "pos": [
+            592,
+            426
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F5",
+          "pos": [
+            467,
+            363
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F3",
+          "pos": [
+            467,
+            424
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "409F6",
+          "pos": [
+            522,
+            392
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F5",
+          "pos": [
+            843,
+            365
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F3",
+          "pos": [
+            843,
+            426
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "414F6",
+          "pos": [
+            899,
+            394
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F3",
+          "pos": [
+            88,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F5",
+          "pos": [
+            88,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "404F6",
+          "pos": [
+            122,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F3",
+          "pos": [
+            174,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F5",
+          "pos": [
+            174,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "405F6",
+          "pos": [
+            207,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F3",
+          "pos": [
+            260,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F5",
+          "pos": [
+            260,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "407F6",
+          "pos": [
+            293,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F3",
+          "pos": [
+            343,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F5",
+          "pos": [
+            343,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "408F6",
+          "pos": [
+            376,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F9",
+          "pos": [
+            376,
+            608
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F3",
+          "pos": [
+            483,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F5",
+          "pos": [
+            483,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "410F6",
+          "pos": [
+            517,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F3",
+          "pos": [
+            569,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F5",
+          "pos": [
+            568,
+            530
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F3",
+          "pos": [
+            692,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F5",
+          "pos": [
+            692,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "413F6",
+          "pos": [
+            725,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F3",
+          "pos": [
+            778,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F5",
+          "pos": [
+            778,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "415F6",
+          "pos": [
+            813,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F3",
+          "pos": [
+            864,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F5",
+          "pos": [
+            864,
+            529
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "416F6",
+          "pos": [
+            897,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F3",
+          "pos": [
+            949,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F5",
+          "pos": [
+            949,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "417F6",
+          "pos": [
+            983,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "418F3",
+          "pos": [
+            1008,
+            425
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F3",
+          "pos": [
+            1067,
+            475
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F5",
+          "pos": [
+            1067,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "419F6",
+          "pos": [
+            1103,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "401F0",
+          "pos": [
+            550,
+            448
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "402F0",
+          "pos": [
+            650,
+            448
+          ]
+        }
       ]
-    ],
+    },
     "nome": "Betim 5"
   },
   {
+    "escala": 1,
     "id": "bhct",
     "mapa": {
       "disjuntores": [
@@ -2516,6 +5084,7 @@
     "nome": "Cinco"
   },
   {
+    "escala": 0.9,
     "id": "cicm",
     "mapa": {
       "disjuntores": [
@@ -2523,8 +5092,8 @@
           "estado": true,
           "nome": "1F",
           "pos": [
-            906,
-            168
+            880,
+            163
           ],
           "ra": true,
           "sc": true
@@ -2533,8 +5102,8 @@
           "estado": true,
           "nome": "2F",
           "pos": [
-            906,
-            218
+            879,
+            212
           ],
           "ra": false,
           "sc": true
@@ -2543,8 +5112,8 @@
           "estado": true,
           "nome": "3F",
           "pos": [
-            906,
-            275
+            881,
+            266
           ],
           "sc": true
         },
@@ -2552,8 +5121,8 @@
           "estado": true,
           "nome": "4F",
           "pos": [
-            906,
-            322
+            880,
+            311
           ],
           "sc": true
         },
@@ -2561,8 +5130,8 @@
           "estado": true,
           "nome": "5F",
           "pos": [
-            906,
-            370
+            880,
+            358
           ],
           "sc": true
         },
@@ -2570,8 +5139,8 @@
           "estado": false,
           "nome": "6F",
           "pos": [
-            1036,
-            466
+            1007,
+            453
           ],
           "sc": true
         },
@@ -2581,8 +5150,8 @@
           "estado": true,
           "nome": "7F",
           "pos": [
-            906,
-            506
+            878,
+            494
           ],
           "sc": true
         },
@@ -2592,8 +5161,8 @@
           "estado": true,
           "nome": "8F",
           "pos": [
-            1036,
-            550
+            1007,
+            536
           ],
           "sc": true
         },
@@ -2601,8 +5170,8 @@
           "estado": true,
           "nome": "13F",
           "pos": [
-            812,
-            635
+            789,
+            617
           ],
           "ra": false,
           "rn": false,
@@ -2612,8 +5181,8 @@
           "estado": true,
           "nome": "15F",
           "pos": [
-            906,
-            616
+            878,
+            598
           ],
           "sc": true
         },
@@ -2621,8 +5190,8 @@
           "estado": false,
           "nome": "21F",
           "pos": [
-            712,
-            400
+            692,
+            389
           ],
           "ra": false,
           "rn": false,
@@ -2632,8 +5201,8 @@
           "estado": true,
           "nome": "22F",
           "pos": [
-            656,
-            355
+            639,
+            346
           ],
           "ra": false,
           "rn": false,
@@ -2643,8 +5212,8 @@
           "estado": true,
           "nome": "24F",
           "pos": [
-            213,
-            109
+            209,
+            107
           ],
           "ra": false,
           "rn": false,
@@ -2654,8 +5223,8 @@
           "estado": true,
           "nome": "26F",
           "pos": [
-            240,
-            164
+            234,
+            159
           ],
           "ra": false,
           "rn": false,
@@ -2665,8 +5234,8 @@
           "estado": true,
           "nome": "27F",
           "pos": [
-            240,
-            210
+            233,
+            203
           ],
           "ra": false,
           "rn": false,
@@ -2676,8 +5245,8 @@
           "estado": true,
           "nome": "28F",
           "pos": [
-            240,
-            260
+            234,
+            254
           ],
           "ra": false,
           "rn": false,
@@ -2687,8 +5256,8 @@
           "estado": true,
           "nome": "30F",
           "pos": [
-            240,
-            307
+            234,
+            298
           ],
           "ra": false,
           "rn": false,
@@ -2698,8 +5267,8 @@
           "estado": true,
           "nome": "31F",
           "pos": [
-            240,
-            355
+            235,
+            346
           ],
           "ra": false,
           "rn": false,
@@ -2709,8 +5278,8 @@
           "estado": true,
           "nome": "32F",
           "pos": [
-            240,
-            400
+            235,
+            388
           ],
           "ra": false,
           "rn": false,
@@ -2720,8 +5289,8 @@
           "estado": true,
           "nome": "34F",
           "pos": [
-            240,
-            446
+            235,
+            431
           ],
           "ra": false,
           "rn": false,
@@ -2731,8 +5300,8 @@
           "estado": true,
           "nome": "35F",
           "pos": [
-            240,
-            490
+            234,
+            477
           ],
           "ra": false,
           "rn": false,
@@ -2742,8 +5311,8 @@
           "estado": true,
           "nome": "33F",
           "pos": [
-            344,
-            526
+            336,
+            511
           ],
           "ra": false,
           "rn": false,
@@ -2753,8 +5322,8 @@
           "estado": true,
           "nome": "71F",
           "pos": [
-            116,
-            518
+            113,
+            503
           ],
           "ra": false,
           "rn": false,
@@ -2764,8 +5333,8 @@
           "estado": true,
           "nome": "72F",
           "pos": [
-            122,
-            598
+            119,
+            580
           ],
           "ra": false,
           "rn": false,
@@ -2775,8 +5344,8 @@
           "estado": true,
           "nome": "80F",
           "pos": [
-            432,
-            626
+            419,
+            608
           ],
           "ra": false,
           "rn": false,
@@ -2784,24 +5353,2081 @@
         },
         {
           "estado": true,
-          "nome": "23F",
           "pos": [
-            106,
+            105,
+            117
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "pos": [
+            104,
             40
           ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        }
+      ],
+      "seccionadoras": [
+        {
+          "estado": 1,
+          "horizontal": true,
+          "nome": "2K5",
+          "pos": [
+            178.888888888889,
+            102.22222222222226
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K5T",
+          "pos": [
+            166.2222222222223,
+            484.3333333333335
+          ]
+        },
+        {
+          "estado": 0,
+          "horizontal": true,
+          "nome": "2K3",
+          "pos": [
+            203.44444444444449,
+            198.66666666666666
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "3K5T",
+          "pos": [
+            848.777777777778,
+            206.3333333333332
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "3K5",
+          "pos": [
+            256.4444444444447,
+            155.00000000000003
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "3K3",
+          "pos": [
+            254.88888888888889,
+            101.66666666666656
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "9kt1",
+          "pos": [
+            689.7777777777776,
+            76.22222222222214
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K6",
+          "pos": [
+            203.77777777777786,
+            153.88888888888894
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "10KT2",
+          "pos": [
+            624.8888888888891,
+            77.11111111111109
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "403F3",
+          "pos": [
+            204.33333333333334,
+            383.222222222222
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "406F3",
+          "pos": [
+            328.888888888889,
+            529.1111111111107
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F9",
+          "pos": [
+            554.3333333333335,
+            78.88888888888899
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "409F5",
+          "pos": [
+            203.66666666666674,
+            294.1111111111111
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "409F3",
+          "pos": [
+            256.66666666666663,
+            383.66666666666674
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "409F6",
+          "pos": [
+            202.33333333333334,
+            427.44444444444474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F5",
+          "pos": [
+            555.0000000000003,
+            107.77777777777781
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "414F3",
+          "pos": [
+            165.77777777777803,
+            306.77777777777743
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "414F6",
+          "pos": [
+            255.66666666666708,
+            198.44444444444463
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "404F3",
+          "pos": [
+            166.44444444444454,
+            395.6666666666671
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "404F5",
+          "pos": [
+            142.77777777777783,
+            578.3333333333334
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "404F6",
+          "pos": [
+            142.22222222222186,
+            498.88888888888823
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "405F3",
+          "pos": [
+            202.77777777777771,
+            471.66666666666686
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "405F5",
+          "pos": [
+            305,
+            437.2222222222223
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "405F6",
+          "pos": [
+            165.88888888888874,
+            211.55555555555586
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "407F3",
+          "pos": [
+            202.55555555555554,
+            341.33333333333303
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "407F5",
+          "pos": [
+            167.22222222222217,
+            440.77777777777845
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "407F6",
+          "pos": [
+            388.33333333333314,
+            603.9999999999998
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F3",
+          "pos": [
+            258.1111111111111,
+            341.33333333333354
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F5",
+          "pos": [
+            443.11111111111154,
+            604.8888888888889
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "408F6",
+          "pos": [
+            849.222222222222,
+            160.5555555555557
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F9",
+          "pos": [
+            941.6666666666667,
+            219.5555555555551
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "410F3",
+          "pos": [
+            256.888888888889,
+            428.2222222222224
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "410F5",
+          "pos": [
+            303.44444444444446,
+            507.55555555555634
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "410F6",
+          "pos": [
+            734.7777777777768,
+            419.3333333333329
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "412F3",
+          "pos": [
+            256.777777777779,
+            293.99999999999966
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "412F5",
+          "pos": [
+            359.777777777778,
+            508.6666666666664
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "413F3",
+          "pos": [
+            255.99999999999994,
+            471.22222222222194
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "413F5",
+          "pos": [
+            775.6666666666661,
+            532.333333333333
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "413F6",
+          "pos": [
+            902.4444444444445,
+            160.99999999999991
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "415F3",
+          "pos": [
+            165.3333333333332,
+            354.11111111111137
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "415F5",
+          "pos": [
+            255.5555555555551,
+            511.55555555555543
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "415F6",
+          "pos": [
+            831.8888888888886,
+            560.4444444444446
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "416F3",
+          "pos": [
+            258.33333333333354,
+            248.4444444444447
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "416F5",
+          "pos": [
+            940.8888888888891,
+            173.0000000000001
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "416F6",
+          "pos": [
+            166.777777777778,
+            167.11111111111103
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F3",
+          "pos": [
+            690.4444444444449,
+            107.55555555555561
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "417F5",
+          "pos": [
+            850.9999999999984,
+            355.55555555555526
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "417F6",
+          "pos": [
+            902.7777777777785,
+            207.33333333333366
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "418F3",
+          "pos": [
+            767.2222222222224,
+            108.22222222222214
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F3",
+          "pos": [
+            624.5555555555557,
+            106.44444444444453
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "419F5",
+          "pos": [
+            165.66666666666657,
+            262.2222222222224
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "419F6",
+          "pos": [
+            659.6666666666679,
+            164.8888888888893
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "401F0",
+          "pos": [
+            204.44444444444395,
+            250.22222222222265
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "402F0",
+          "pos": [
+            942,
+            275.5555555555553
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            662.222222222222,
+            384.444444444444
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            803.3333333333337,
+            487.77777777777794
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            714.4444444444446,
+            385.55555555555554
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            846.6666666666665,
+            487.77777777777777
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            758.888888888889,
+            612.2222222222227
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            813.3333333333331,
+            612.2222222222223
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            548.8888888888882,
+            612.222222222222
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "nome",
+          "pos": [
+            461.1111111111113,
+            588.8888888888881
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            785.5555555555552,
+            633.333333333333
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            303.3333333333332,
+            280
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            542.2222222222227,
+            227.77777777777789
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            487.7777777777782,
+            244.44444444444446
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            975.5555555555553,
+            532.2222222222223
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            975.5555555555555,
+            447.77777777777817
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            698.8888888888887,
+            84.44444444444443
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            776.6666666666667,
+            82.22222222222216
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            903.3333333333333,
+            355.5555555555558
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            940.0000000000003,
+            321.11111111111103
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            848.8888888888891,
+            308.8888888888891
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            904.4444444444446,
+            308.88888888888874
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            903.3333333333331,
+            264.4444444444443
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            852.2222222222224,
+            263.3333333333332
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            902.2222222222225,
+            487.77777777777817
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            848.8888888888887,
+            593.3333333333333
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            941.1111111111112,
+            605.5555555555557
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            940,
+            368.888888888889
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            127.77777777777771,
+            114.44444444444447
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            125.55555555555544,
+            35.55555555555545
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "nome",
+          "pos": [
+            331.11111111111074,
+            252.2222222222226
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            902.2222222222224,
+            594.4444444444442
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "nome",
+          "pos": [
+            833.3333333333331,
+            507.77777777777817
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "nome",
+          "pos": [
+            365.5555555555555,
+            589.9999999999997
+          ]
+        }
+      ]
+    },
+    "nome": "Contagem 1"
+  },
+  {
+    "id": "cemt",
+    "mapa": {
+      "disjuntores": [
+        {
+          "estado": true,
+          "nome": "1F",
+          "pos": [
+            880,
+            163
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "2F",
+          "pos": [
+            879,
+            212
+          ],
+          "ra": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "3F",
+          "pos": [
+            881,
+            266
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "4F",
+          "pos": [
+            880,
+            311
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "5F",
+          "pos": [
+            880,
+            358
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "6F",
+          "pos": [
+            1007,
+            453
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "7F",
+          "pos": [
+            878,
+            494
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "8F",
+          "pos": [
+            1007,
+            536
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "13F",
+          "pos": [
+            789,
+            617
+          ],
           "ra": false,
           "rn": false,
           "sc": true
         },
         {
           "estado": true,
-          "nome": "25F",
+          "nome": "15F",
           "pos": [
-            106,
-            122
+            878,
+            598
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "21F",
+          "pos": [
+            692,
+            389
           ],
           "ra": false,
           "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "22F",
+          "pos": [
+            639,
+            346
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "24F",
+          "pos": [
+            209,
+            107
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "26F",
+          "pos": [
+            234,
+            159
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "27F",
+          "pos": [
+            233,
+            203
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "28F",
+          "pos": [
+            234,
+            254
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "30F",
+          "pos": [
+            234,
+            298
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "31F",
+          "pos": [
+            235,
+            346
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "32F",
+          "pos": [
+            235,
+            388
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "34F",
+          "pos": [
+            235,
+            431
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "35F",
+          "pos": [
+            234,
+            477
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "33F",
+          "pos": [
+            336,
+            511
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "71F",
+          "pos": [
+            113,
+            503
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "72F",
+          "pos": [
+            119,
+            580
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "80F",
+          "pos": [
+            419,
+            608
+          ],
+          "ra": false,
+          "rn": false,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "pos": [
+            105,
+            117
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "pos": [
+            104,
+            40
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        }
+      ],
+      "seccionadoras": [
+        {
+          "estado": 1,
+          "horizontal": true,
+          "nome": "2K5",
+          "pos": [
+            178.888888888889,
+            102.22222222222226
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K5T",
+          "pos": [
+            166.2222222222223,
+            484.3333333333335
+          ]
+        },
+        {
+          "estado": 0,
+          "horizontal": true,
+          "nome": "2K3",
+          "pos": [
+            203.44444444444449,
+            198.66666666666666
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "3K5T",
+          "pos": [
+            848.777777777778,
+            206.3333333333332
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "3K5",
+          "pos": [
+            256.4444444444447,
+            155.00000000000003
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "3K3",
+          "pos": [
+            254.88888888888889,
+            101.66666666666656
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "9kt1",
+          "pos": [
+            689.7777777777776,
+            76.22222222222214
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K6",
+          "pos": [
+            203.77777777777786,
+            153.88888888888894
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "10KT2",
+          "pos": [
+            624.8888888888891,
+            77.11111111111109
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "403F3",
+          "pos": [
+            204.33333333333334,
+            383.222222222222
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "406F3",
+          "pos": [
+            328.888888888889,
+            529.1111111111107
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F9",
+          "pos": [
+            554.3333333333335,
+            78.88888888888899
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "409F5",
+          "pos": [
+            203.66666666666674,
+            294.1111111111111
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "409F3",
+          "pos": [
+            256.66666666666663,
+            383.66666666666674
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "409F6",
+          "pos": [
+            202.33333333333334,
+            427.44444444444474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F5",
+          "pos": [
+            555.0000000000003,
+            107.77777777777781
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "414F3",
+          "pos": [
+            165.77777777777803,
+            306.77777777777743
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "414F6",
+          "pos": [
+            255.66666666666708,
+            198.44444444444463
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "404F3",
+          "pos": [
+            166.44444444444454,
+            395.6666666666671
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "404F5",
+          "pos": [
+            142.77777777777783,
+            578.3333333333334
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "404F6",
+          "pos": [
+            142.22222222222186,
+            498.88888888888823
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "405F3",
+          "pos": [
+            202.77777777777771,
+            471.66666666666686
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "405F5",
+          "pos": [
+            305,
+            437.2222222222223
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "405F6",
+          "pos": [
+            165.88888888888874,
+            211.55555555555586
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "407F3",
+          "pos": [
+            202.55555555555554,
+            341.33333333333303
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "407F5",
+          "pos": [
+            167.22222222222217,
+            440.77777777777845
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "407F6",
+          "pos": [
+            388.33333333333314,
+            603.9999999999998
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F3",
+          "pos": [
+            258.1111111111111,
+            341.33333333333354
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F5",
+          "pos": [
+            443.11111111111154,
+            604.8888888888889
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "408F6",
+          "pos": [
+            849.222222222222,
+            160.5555555555557
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F9",
+          "pos": [
+            941.6666666666667,
+            219.5555555555551
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "410F3",
+          "pos": [
+            256.888888888889,
+            428.2222222222224
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "410F5",
+          "pos": [
+            303.44444444444446,
+            507.55555555555634
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "410F6",
+          "pos": [
+            734.7777777777768,
+            419.3333333333329
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "412F3",
+          "pos": [
+            256.777777777779,
+            293.99999999999966
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "412F5",
+          "pos": [
+            359.777777777778,
+            508.6666666666664
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "413F3",
+          "pos": [
+            255.99999999999994,
+            471.22222222222194
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "413F5",
+          "pos": [
+            775.6666666666661,
+            532.333333333333
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "413F6",
+          "pos": [
+            902.4444444444445,
+            160.99999999999991
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "415F3",
+          "pos": [
+            165.3333333333332,
+            354.11111111111137
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "415F5",
+          "pos": [
+            255.5555555555551,
+            511.55555555555543
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "415F6",
+          "pos": [
+            831.8888888888886,
+            560.4444444444446
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "416F3",
+          "pos": [
+            258.33333333333354,
+            248.4444444444447
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "416F5",
+          "pos": [
+            940.8888888888891,
+            173.0000000000001
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "416F6",
+          "pos": [
+            166.777777777778,
+            167.11111111111103
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F3",
+          "pos": [
+            690.4444444444449,
+            107.55555555555561
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "417F5",
+          "pos": [
+            850.9999999999984,
+            355.55555555555526
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "417F6",
+          "pos": [
+            902.7777777777785,
+            207.33333333333366
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "418F3",
+          "pos": [
+            767.2222222222224,
+            108.22222222222214
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F3",
+          "pos": [
+            624.5555555555557,
+            106.44444444444453
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "419F5",
+          "pos": [
+            165.66666666666657,
+            262.2222222222224
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "419F6",
+          "pos": [
+            659.6666666666679,
+            164.8888888888893
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "401F0",
+          "pos": [
+            204.44444444444395,
+            250.22222222222265
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "402F0",
+          "pos": [
+            942,
+            275.5555555555553
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            662.222222222222,
+            384.444444444444
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            803.3333333333337,
+            487.77777777777794
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            714.4444444444446,
+            385.55555555555554
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            846.6666666666665,
+            487.77777777777777
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            758.888888888889,
+            612.2222222222227
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            813.3333333333331,
+            612.2222222222223
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            548.8888888888882,
+            612.222222222222
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "nome",
+          "pos": [
+            461.1111111111113,
+            588.8888888888881
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            785.5555555555552,
+            633.333333333333
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            303.3333333333332,
+            280
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            542.2222222222227,
+            227.77777777777789
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            487.7777777777782,
+            244.44444444444446
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            975.5555555555553,
+            532.2222222222223
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            975.5555555555555,
+            447.77777777777817
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            698.8888888888887,
+            84.44444444444443
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            776.6666666666667,
+            82.22222222222216
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            903.3333333333333,
+            355.5555555555558
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            940.0000000000003,
+            321.11111111111103
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            848.8888888888891,
+            308.8888888888891
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            904.4444444444446,
+            308.88888888888874
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            903.3333333333331,
+            264.4444444444443
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            852.2222222222224,
+            263.3333333333332
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            902.2222222222225,
+            487.77777777777817
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            848.8888888888887,
+            593.3333333333333
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            941.1111111111112,
+            605.5555555555557
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            940,
+            368.888888888889
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            127.77777777777771,
+            114.44444444444447
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            125.55555555555544,
+            35.55555555555545
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "nome",
+          "pos": [
+            331.11111111111074,
+            252.2222222222226
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "nome",
+          "pos": [
+            902.2222222222224,
+            594.4444444444442
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "nome",
+          "pos": [
+            833.3333333333331,
+            507.77777777777817
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "nome",
+          "pos": [
+            365.5555555555555,
+            589.9999999999997
+          ]
+        }
+      ]
+    },
+    "nome": "Contagem 3"
+  },
+  {
+    "id": "cemc",
+    "mapa": {
+      "disjuntores": [
+        {
+          "estado": 0,
+          "nome": "2K",
+          "pos": [
+            427,
+            165
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "3K",
+          "pos": [
+            753,
+            163
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "9K",
+          "pos": [
+            471,
+            275
+          ],
+          "sc": false
+        },
+        {
+          "estado": true,
+          "nome": "10K",
+          "pos": [
+            846,
+            275
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "403F",
+          "pos": [
+            56,
+            402
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "406F",
+          "pos": [
+            220,
+            401
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "409F",
+          "pos": [
+            472,
+            396
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "414F",
+          "pos": [
+            846,
+            395
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "418F",
+          "pos": [
+            1012,
+            399
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "404F",
+          "pos": [
+            90,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "405F",
+          "pos": [
+            175,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "407F",
+          "pos": [
+            261,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "408F",
+          "pos": [
+            344,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "410F",
+          "pos": [
+            484,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": 0,
+          "nome": "412F",
+          "pos": [
+            571,
+            504
+          ],
+          "ra": false,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "413F",
+          "pos": [
+            694,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "415F",
+          "pos": [
+            781,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "416F",
+          "pos": [
+            863,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "417F",
+          "pos": [
+            951,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "419F",
+          "pos": [
+            1071,
+            504
+          ],
+          "ra": true,
+          "rn": true,
           "sc": true
         }
       ],
@@ -2811,8 +7437,8 @@
           "horizontal": false,
           "nome": "2K5",
           "pos": [
-            140,
-            40
+            423,
+            135
           ]
         },
         {
@@ -2825,7 +7451,7 @@
           ]
         },
         {
-          "estado": 0,
+          "estado": 1,
           "horizontal": false,
           "nome": "2K3",
           "pos": [
@@ -2848,7 +7474,7 @@
           "nome": "3K5",
           "pos": [
             752,
-            135
+            134
           ]
         },
         {
@@ -2883,7 +7509,7 @@
           "horizontal": false,
           "nome": "10KT2",
           "pos": [
-            845,
+            844,
             235
           ]
         },
@@ -2946,8 +7572,8 @@
           "horizontal": false,
           "nome": "414F5",
           "pos": [
-            845,
-            363
+            843,
+            365
           ]
         },
         {
@@ -2955,8 +7581,8 @@
           "horizontal": false,
           "nome": "414F3",
           "pos": [
-            845,
-            424
+            843,
+            426
           ]
         },
         {
@@ -3126,7 +7752,7 @@
           "horizontal": false,
           "nome": "412F5",
           "pos": [
-            569,
+            568,
             530
           ]
         },
@@ -3135,7 +7761,7 @@
           "horizontal": false,
           "nome": "413F3",
           "pos": [
-            693,
+            692,
             474
           ]
         },
@@ -3144,7 +7770,7 @@
           "horizontal": false,
           "nome": "413F5",
           "pos": [
-            693,
+            692,
             530
           ]
         },
@@ -3153,7 +7779,7 @@
           "horizontal": false,
           "nome": "413F6",
           "pos": [
-            727,
+            725,
             576
           ]
         },
@@ -3162,7 +7788,7 @@
           "horizontal": false,
           "nome": "415F3",
           "pos": [
-            779,
+            778,
             474
           ]
         },
@@ -3171,8 +7797,8 @@
           "horizontal": false,
           "nome": "415F5",
           "pos": [
-            779,
-            530
+            778,
+            531
           ]
         },
         {
@@ -3189,7 +7815,7 @@
           "horizontal": false,
           "nome": "416F3",
           "pos": [
-            865,
+            864,
             474
           ]
         },
@@ -3198,8 +7824,8 @@
           "horizontal": false,
           "nome": "416F5",
           "pos": [
-            865,
-            530
+            864,
+            529
           ]
         },
         {
@@ -3207,7 +7833,7 @@
           "horizontal": false,
           "nome": "416F6",
           "pos": [
-            899,
+            897,
             576
           ]
         },
@@ -3216,7 +7842,7 @@
           "horizontal": false,
           "nome": "417F3",
           "pos": [
-            951,
+            949,
             474
           ]
         },
@@ -3225,8 +7851,8 @@
           "horizontal": false,
           "nome": "417F5",
           "pos": [
-            951,
-            530
+            949,
+            531
           ]
         },
         {
@@ -3234,7 +7860,7 @@
           "horizontal": false,
           "nome": "417F6",
           "pos": [
-            985,
+            983,
             576
           ]
         },
@@ -3243,8 +7869,8 @@
           "horizontal": false,
           "nome": "418F3",
           "pos": [
-            1010,
-            426
+            1008,
+            425
           ]
         },
         {
@@ -3252,8 +7878,8 @@
           "horizontal": false,
           "nome": "419F3",
           "pos": [
-            1069,
-            474
+            1067,
+            475
           ]
         },
         {
@@ -3261,7 +7887,7 @@
           "horizontal": false,
           "nome": "419F5",
           "pos": [
-            1069,
+            1067,
             530
           ]
         },
@@ -3294,62 +7920,1414 @@
         }
       ]
     },
-    "nome": "Contagem 1"
-  },
-  {
-    "id": "cemt",
-    "mapa": [
-      [
-        424,
-        163
-      ],
-      [
-        1071,
-        504
-      ]
-    ],
-    "nome": "Contagem 3"
-  },
-  {
-    "id": "cemc",
-    "mapa": [
-      [
-        424,
-        163
-      ],
-      [
-        1071,
-        504
-      ]
-    ],
     "nome": "Contagem 5"
   },
   {
     "id": "sluu",
-    "mapa": [
-      [
-        424,
-        163
+    "mapa": {
+      "disjuntores": [
+        {
+          "estado": 0,
+          "nome": "2K",
+          "pos": [
+            427,
+            165
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "3K",
+          "pos": [
+            753,
+            163
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "9K",
+          "pos": [
+            471,
+            275
+          ],
+          "sc": false
+        },
+        {
+          "estado": true,
+          "nome": "10K",
+          "pos": [
+            846,
+            275
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "403F",
+          "pos": [
+            56,
+            402
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "406F",
+          "pos": [
+            220,
+            401
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "409F",
+          "pos": [
+            472,
+            396
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "414F",
+          "pos": [
+            846,
+            395
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "418F",
+          "pos": [
+            1012,
+            399
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "404F",
+          "pos": [
+            90,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "405F",
+          "pos": [
+            175,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "407F",
+          "pos": [
+            261,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "408F",
+          "pos": [
+            344,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "410F",
+          "pos": [
+            484,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": 0,
+          "nome": "412F",
+          "pos": [
+            571,
+            504
+          ],
+          "ra": false,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "413F",
+          "pos": [
+            694,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "415F",
+          "pos": [
+            781,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "416F",
+          "pos": [
+            863,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "417F",
+          "pos": [
+            951,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "419F",
+          "pos": [
+            1071,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        }
       ],
-      [
-        1071,
-        504
+      "seccionadoras": [
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K5",
+          "pos": [
+            423,
+            135
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K5T",
+          "pos": [
+            389,
+            115
+          ]
+        },
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K3",
+          "pos": [
+            423,
+            190
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "3K5T",
+          "pos": [
+            787,
+            115
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K5",
+          "pos": [
+            752,
+            134
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K3",
+          "pos": [
+            752,
+            190
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "9kt1",
+          "pos": [
+            467,
+            235
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K6",
+          "pos": [
+            596,
+            105
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "10KT2",
+          "pos": [
+            844,
+            235
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "403F3",
+          "pos": [
+            52,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "406F3",
+          "pos": [
+            215,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F9",
+          "pos": [
+            592,
+            426
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F5",
+          "pos": [
+            467,
+            363
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F3",
+          "pos": [
+            467,
+            424
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "409F6",
+          "pos": [
+            522,
+            392
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F5",
+          "pos": [
+            843,
+            365
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F3",
+          "pos": [
+            843,
+            426
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "414F6",
+          "pos": [
+            899,
+            394
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F3",
+          "pos": [
+            88,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F5",
+          "pos": [
+            88,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "404F6",
+          "pos": [
+            122,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F3",
+          "pos": [
+            174,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F5",
+          "pos": [
+            174,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "405F6",
+          "pos": [
+            207,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F3",
+          "pos": [
+            260,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F5",
+          "pos": [
+            260,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "407F6",
+          "pos": [
+            293,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F3",
+          "pos": [
+            343,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F5",
+          "pos": [
+            343,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "408F6",
+          "pos": [
+            376,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F9",
+          "pos": [
+            376,
+            608
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F3",
+          "pos": [
+            483,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F5",
+          "pos": [
+            483,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "410F6",
+          "pos": [
+            517,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F3",
+          "pos": [
+            569,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F5",
+          "pos": [
+            568,
+            530
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F3",
+          "pos": [
+            692,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F5",
+          "pos": [
+            692,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "413F6",
+          "pos": [
+            725,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F3",
+          "pos": [
+            778,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F5",
+          "pos": [
+            778,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "415F6",
+          "pos": [
+            813,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F3",
+          "pos": [
+            864,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F5",
+          "pos": [
+            864,
+            529
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "416F6",
+          "pos": [
+            897,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F3",
+          "pos": [
+            949,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F5",
+          "pos": [
+            949,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "417F6",
+          "pos": [
+            983,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "418F3",
+          "pos": [
+            1008,
+            425
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F3",
+          "pos": [
+            1067,
+            475
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F5",
+          "pos": [
+            1067,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "419F6",
+          "pos": [
+            1103,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "401F0",
+          "pos": [
+            550,
+            448
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "402F0",
+          "pos": [
+            650,
+            448
+          ]
+        }
       ]
-    ],
+    },
     "nome": "Santa Luzia 1"
   },
   {
     "id": "slud",
-    "mapa": [
-      [
-        424,
-        163
+    "mapa": {
+      "disjuntores": [
+        {
+          "estado": 0,
+          "nome": "2K",
+          "pos": [
+            427,
+            165
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "3K",
+          "pos": [
+            753,
+            163
+          ],
+          "ra": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "9K",
+          "pos": [
+            471,
+            275
+          ],
+          "sc": false
+        },
+        {
+          "estado": true,
+          "nome": "10K",
+          "pos": [
+            846,
+            275
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "403F",
+          "pos": [
+            56,
+            402
+          ],
+          "sc": true
+        },
+        {
+          "estado": false,
+          "nome": "406F",
+          "pos": [
+            220,
+            401
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "409F",
+          "pos": [
+            472,
+            396
+          ],
+          "sc": true
+        },
+        {
+          "c43t": true,
+          "c69bc": true,
+          "estado": true,
+          "nome": "414F",
+          "pos": [
+            846,
+            395
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "418F",
+          "pos": [
+            1012,
+            399
+          ],
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "404F",
+          "pos": [
+            90,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "405F",
+          "pos": [
+            175,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "407F",
+          "pos": [
+            261,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "408F",
+          "pos": [
+            344,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "410F",
+          "pos": [
+            484,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": 0,
+          "nome": "412F",
+          "pos": [
+            571,
+            504
+          ],
+          "ra": false,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "413F",
+          "pos": [
+            694,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "415F",
+          "pos": [
+            781,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "416F",
+          "pos": [
+            863,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "417F",
+          "pos": [
+            951,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        },
+        {
+          "estado": true,
+          "nome": "419F",
+          "pos": [
+            1071,
+            504
+          ],
+          "ra": true,
+          "rn": true,
+          "sc": true
+        }
       ],
-      [
-        1071,
-        504
+      "seccionadoras": [
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K5",
+          "pos": [
+            423,
+            135
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K5T",
+          "pos": [
+            389,
+            115
+          ]
+        },
+        {
+          "estado": 1,
+          "horizontal": false,
+          "nome": "2K3",
+          "pos": [
+            423,
+            190
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "3K5T",
+          "pos": [
+            787,
+            115
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K5",
+          "pos": [
+            752,
+            134
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "3K3",
+          "pos": [
+            752,
+            190
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "9kt1",
+          "pos": [
+            467,
+            235
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": true,
+          "nome": "2K6",
+          "pos": [
+            596,
+            105
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "10KT2",
+          "pos": [
+            844,
+            235
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "403F3",
+          "pos": [
+            52,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "406F3",
+          "pos": [
+            215,
+            428
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F9",
+          "pos": [
+            592,
+            426
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F5",
+          "pos": [
+            467,
+            363
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "409F3",
+          "pos": [
+            467,
+            424
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "409F6",
+          "pos": [
+            522,
+            392
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F5",
+          "pos": [
+            843,
+            365
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "414F3",
+          "pos": [
+            843,
+            426
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "414F6",
+          "pos": [
+            899,
+            394
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F3",
+          "pos": [
+            88,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "404F5",
+          "pos": [
+            88,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "404F6",
+          "pos": [
+            122,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F3",
+          "pos": [
+            174,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "405F5",
+          "pos": [
+            174,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "405F6",
+          "pos": [
+            207,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F3",
+          "pos": [
+            260,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "407F5",
+          "pos": [
+            260,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "407F6",
+          "pos": [
+            293,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F3",
+          "pos": [
+            343,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "408F5",
+          "pos": [
+            343,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "408F6",
+          "pos": [
+            376,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "408F9",
+          "pos": [
+            376,
+            608
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F3",
+          "pos": [
+            483,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "410F5",
+          "pos": [
+            483,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "410F6",
+          "pos": [
+            517,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F3",
+          "pos": [
+            569,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "412F5",
+          "pos": [
+            568,
+            530
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F3",
+          "pos": [
+            692,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "413F5",
+          "pos": [
+            692,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "413F6",
+          "pos": [
+            725,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F3",
+          "pos": [
+            778,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "415F5",
+          "pos": [
+            778,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "415F6",
+          "pos": [
+            813,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F3",
+          "pos": [
+            864,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "416F5",
+          "pos": [
+            864,
+            529
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "416F6",
+          "pos": [
+            897,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F3",
+          "pos": [
+            949,
+            474
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "417F5",
+          "pos": [
+            949,
+            531
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "417F6",
+          "pos": [
+            983,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "418F3",
+          "pos": [
+            1008,
+            425
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F3",
+          "pos": [
+            1067,
+            475
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": false,
+          "nome": "419F5",
+          "pos": [
+            1067,
+            530
+          ]
+        },
+        {
+          "estado": false,
+          "horizontal": false,
+          "nome": "419F6",
+          "pos": [
+            1103,
+            576
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "401F0",
+          "pos": [
+            550,
+            448
+          ]
+        },
+        {
+          "estado": true,
+          "horizontal": true,
+          "nome": "402F0",
+          "pos": [
+            650,
+            448
+          ]
+        }
       ]
-    ],
+    },
     "nome": "Santa Luzia 2"
   }
 ]

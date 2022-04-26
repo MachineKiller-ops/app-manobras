@@ -37,7 +37,7 @@ function Disjuntor(props) {
                         }}
                         onClick={() => props.onClick()}
                     >
-                        {props.index}
+                        {/* {props.index} */}
                     </button>
                     <div
                         className="opcoes"
